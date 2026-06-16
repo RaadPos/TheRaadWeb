@@ -1,8 +1,16 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 import PageHeader from "@/components/PageHeader";
 import { useI18n } from "@/components/I18nProvider";
+
+const EMAILJS = {
+  service: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "",
+  template: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "",
+  publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "",
+};
 
 const inputCls =
   "w-full rounded-[12px] border border-line bg-bg-2 px-[15px] py-[13px] text-[14px] text-ink placeholder:text-ink-muted outline-none transition-colors focus:border-[color-mix(in_srgb,var(--accent)_60%,transparent)]";
@@ -35,8 +43,89 @@ const topics = [
 
 export default function SupportBody() {
   const { ts } = useI18n();
+
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    topic: topics[0],
+    message: "",
+  });
+  const [sending, setSending] = useState(false);
+  const [toast, setToast] = useState<{ msg: string; type: "success" | "error" } | null>(
+    null
+  );
+
+  useEffect(() => {
+    if (!toast) return;
+    const id = window.setTimeout(() => setToast(null), 5000);
+    return () => window.clearTimeout(id);
+  }, [toast]);
+
+  const onSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (form.name.trim().length < 2)
+      return setToast({ msg: ts("Please enter a valid full name"), type: "error" });
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email))
+      return setToast({ msg: ts("Please enter a valid email address"), type: "error" });
+    if (form.message.trim().length < 10)
+      return setToast({ msg: ts("Message must be at least 10 characters"), type: "error" });
+
+    setSending(true);
+    try {
+      await emailjs.send(
+        EMAILJS.service,
+        EMAILJS.template,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          phone: form.phone || "Not provided",
+          subject: form.topic,
+          message: form.message,
+          timestamp: new Date().toLocaleString("en-US", {
+            dateStyle: "full",
+            timeStyle: "short",
+          }),
+        },
+        { publicKey: EMAILJS.publicKey }
+      );
+      setToast({
+        msg: ts("Thanks! Your message has been sent — we'll reply within 1 business day."),
+        type: "success",
+      });
+      setForm({ name: "", email: "", phone: "", topic: topics[0], message: "" });
+    } catch (err) {
+      console.error("[contact] EmailJS send failed:", err);
+      setToast({
+        msg: ts("Couldn't send your message. Please try again."),
+        type: "error",
+      });
+    } finally {
+      setSending(false);
+    }
+  };
+
   return (
     <>
+      {/* toast */}
+      {toast && (
+        <div
+          role="status"
+          className={`fixed right-[20px] top-[90px] z-[400] flex max-w-[360px] items-start gap-[10px] rounded-[14px] border px-[18px] py-[14px] text-[14px] font-medium shadow-[0_14px_44px_oklch(0_0_0_/_0.35)] backdrop-blur-[8px] max-md:left-[16px] max-md:right-[16px] max-md:max-w-none ${
+            toast.type === "success"
+              ? "border-[oklch(0.72_0.16_155_/_0.45)] bg-[oklch(0.72_0.16_155_/_0.14)] text-[oklch(0.82_0.16_155)]"
+              : "border-[oklch(0.62_0.2_25_/_0.45)] bg-[oklch(0.62_0.2_25_/_0.14)] text-[oklch(0.74_0.2_25)]"
+          }`}
+        >
+          <i
+            className={`bx ${
+              toast.type === "success" ? "bx-check-circle" : "bx-error-circle"
+            } mt-[1px] flex-shrink-0 text-[18px]`}
+          />
+          <span>{toast.msg}</span>
+        </div>
+      )}
+
       <PageHeader
         eyebrow={ts("Support")}
         title={
@@ -131,28 +220,56 @@ export default function SupportBody() {
               {ts("Fill in your details and we'll get back to you by email.")}
             </p>
 
-            <form className="flex flex-col gap-[18px]">
+            <form className="flex flex-col gap-[18px]" onSubmit={onSubmit} noValidate>
               <div className="grid grid-cols-2 gap-[16px] max-md:grid-cols-1">
                 <div>
                   <label className={labelCls} htmlFor="name">{ts("Full name")}</label>
-                  <input id="name" name="name" type="text" placeholder="Amina Yusuf" className={inputCls} />
+                  <input
+                    id="name"
+                    type="text"
+                    placeholder="Amina Yusuf"
+                    className={inputCls}
+                    value={form.name}
+                    onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
+                  />
                 </div>
                 <div>
                   <label className={labelCls} htmlFor="email">{ts("Email")}</label>
-                  <input id="email" name="email" type="email" placeholder="you@example.com" className={inputCls} />
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    className={inputCls}
+                    value={form.email}
+                    onChange={(e) => setForm((f) => ({ ...f, email: e.target.value }))}
+                  />
                 </div>
               </div>
 
               <div className="grid grid-cols-2 gap-[16px] max-md:grid-cols-1">
                 <div>
                   <label className={labelCls} htmlFor="phone">{ts("Phone (optional)")}</label>
-                  <input id="phone" name="phone" type="tel" placeholder="+252 …" className={inputCls} />
+                  <input
+                    id="phone"
+                    type="tel"
+                    placeholder="+252 …"
+                    className={inputCls}
+                    value={form.phone}
+                    onChange={(e) => setForm((f) => ({ ...f, phone: e.target.value }))}
+                  />
                 </div>
                 <div>
                   <label className={labelCls} htmlFor="topic">{ts("Topic")}</label>
-                  <select id="topic" name="topic" className={`${inputCls} appearance-none`}>
+                  <select
+                    id="topic"
+                    className={`${inputCls} appearance-none`}
+                    value={form.topic}
+                    onChange={(e) => setForm((f) => ({ ...f, topic: e.target.value }))}
+                  >
                     {topics.map((t) => (
-                      <option key={t} className="bg-bg-2 text-ink">{ts(t)}</option>
+                      <option key={t} value={t} className="bg-bg-2 text-ink">
+                        {ts(t)}
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -162,10 +279,11 @@ export default function SupportBody() {
                 <label className={labelCls} htmlFor="message">{ts("Message")}</label>
                 <textarea
                   id="message"
-                  name="message"
                   rows={5}
                   placeholder={ts("Tell us how we can help…")}
                   className={`${inputCls} resize-none`}
+                  value={form.message}
+                  onChange={(e) => setForm((f) => ({ ...f, message: e.target.value }))}
                 />
               </div>
 
@@ -173,8 +291,20 @@ export default function SupportBody() {
                 <p className="text-[12px] text-ink-muted max-md:order-2 max-md:text-center">
                   {ts("We'll only use your details to reply to you.")}
                 </p>
-                <button type="button" className="btn btn-primary max-md:w-full max-md:justify-center">
-                  <i className="bx bx-send text-[17px]" /> {ts("Send message")}
+                <button
+                  type="submit"
+                  disabled={sending}
+                  className="btn btn-primary max-md:w-full max-md:justify-center disabled:cursor-not-allowed disabled:opacity-70"
+                >
+                  {sending ? (
+                    <>
+                      <i className="bx bx-loader-alt animate-spin text-[17px]" /> {ts("Sending…")}
+                    </>
+                  ) : (
+                    <>
+                      <i className="bx bx-send text-[17px]" /> {ts("Send message")}
+                    </>
+                  )}
                 </button>
               </div>
             </form>

@@ -5,4 +5,11 @@
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
+
+# Environment / secrets — never commit these
+.env
+.env.local
 .env*.local
+.env.development
+.env.production
+!.env.example

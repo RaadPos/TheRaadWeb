@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/features",
     "/pricing",
+    "/demo",
     "/docs",
     "/hardware",
     "/hardware/thermal-printer",

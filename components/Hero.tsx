@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useI18n } from "@/components/I18nProvider";
 import SmartCta from "@/components/SmartCta";
 
@@ -47,10 +48,10 @@ export default function Hero() {
         </p>
         <div className="reveal in mb-[54px] flex flex-wrap justify-center gap-[14px]">
           <SmartCta size="lg" />
-          <a href="#" className="btn btn-secondary">
+          <Link href="/demo" className="btn btn-secondary">
             {t("hero.ctaDemo")}
             <span className="arrow">→</span>
-          </a>
+          </Link>
         </div>
         <div className="reveal in mb-[64px] flex flex-wrap items-stretch justify-center">
           <Stat num="6" label={t("hero.statBiz")} />

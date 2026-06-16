@@ -7,10 +7,12 @@ export type LegalSection = {
 // Renders a numbered legal document (privacy, terms) with consistent styling.
 export default function LegalContent({
   updated,
+  updatedLabel = "Last updated:",
   intro,
   sections,
 }: {
   updated: string;
+  updatedLabel?: string;
   intro?: string;
   sections: LegalSection[];
 }) {
@@ -18,7 +20,7 @@ export default function LegalContent({
     <section className="px-[48px] pb-[120px] max-md:px-[20px] max-md:pb-[80px]">
       <div className="mx-auto max-w-[760px]">
         <p className="mb-[24px] font-mono text-[12px] uppercase tracking-[0.08em] text-ink-muted">
-          Last updated: {updated}
+          {updatedLabel} {updated}
         </p>
         {intro && (
           <p className="mb-[40px] text-[15.5px] leading-[1.7] text-ink-dim text-pretty">
