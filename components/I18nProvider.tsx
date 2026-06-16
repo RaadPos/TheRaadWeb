@@ -60,6 +60,8 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
+
+  
   const setLocale = useCallback((l: Locale) => {
     setLocaleState(l);
     try {
