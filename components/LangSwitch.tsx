@@ -23,6 +23,7 @@ export default function LangSwitch({ className }: { className?: string }) {
         <span className="relative h-[11px] w-[15px] flex-shrink-0 overflow-hidden rounded-[2px] bg-[#4189dd] after:absolute after:inset-0 after:grid after:place-items-center after:text-[7px] after:text-white after:content-['★']" />
       ) : (
         // English — neutral globe icon
+        
         <i className="bx bx-globe text-[15px]" />
       )}
       <span>{locale === "en" ? t("lang.en") : t("lang.so")}</span>
