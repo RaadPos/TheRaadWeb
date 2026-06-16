@@ -1,0 +1,193 @@
+{
+  "lang": { "en": "EN", "so": "SO", "switchTo": "Switch language" },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Documentation",
+    "hardware": "Hardware",
+    "support": "Support",
+    "getApp": "Get the app"
+  },
+  "hero": {
+    "badge": "Sell smartly · v2.4 out now",
+    "titleLine1": "Built for shop owners.",
+    "titlePre": "Made to scale your ",
+    "titleAccent": "business.",
+    "leadPre": "Raad POS replaces your notebook with a smart register. Track sales, inventory, and customer credit (",
+    "leadEm": "dayn",
+    "leadPost": ") — from one phone, with every record encrypted and backed up to the cloud.",
+    "ctaDownload": "Download on Play Store",
+    "ctaDemo": "Watch 90-sec demo",
+    "statBiz": "Business types",
+    "statUnits": "Unit system",
+    "statSetup": "To first sale",
+    "phoneGreeting": "Good morning, Amina",
+    "phoneDashboard": "Today's dashboard",
+    "phoneTotalSales": "Total sales",
+    "phoneTrend": "18% vs yesterday",
+    "cardToday": "Today",
+    "cardDaynPaid": "Dayn paid"
+  },
+  "strip": {
+    "label": "Trusted across Somalia",
+    "items": ["Grocery", "Clothing", "Cosmetics", "Electronics", "Bookshop", "Restaurants", "Wholesale"]
+  },
+  "ways": {
+    "eyebrow": "The shift",
+    "titlePre": "A new way of ",
+    "titleEm": "selling.",
+    "desc": "Selling used to live in notebooks. Today, it lives on your phone.",
+    "oldTag": "Before",
+    "oldTitle": "The old way",
+    "oldDesc": "Messy notebooks. Lost receipts. Forgotten debts.",
+    "newTag": "With Raad",
+    "newTitle": "The new way",
+    "newDesc": "Manage, sell, and scale — all in one AI-powered platform."
+  },
+  "how": {
+    "eyebrow": "Eight steps",
+    "titlePre": "How Raad ",
+    "titleEm": "works.",
+    "desc": "From install to first sale in under five minutes — no training required.",
+    "phoneTitle": "Today's overview",
+    "phoneRevenue": "Revenue",
+    "phoneOrders": "Orders",
+    "steps": [
+      { "h": "Install Raad", "p": "Download from the Play Store — less than 30 MB." },
+      { "h": "Create your account", "p": "Sign up with your email and set up your business profile." },
+      { "h": "Add your products", "p": "Scan barcodes or type manually — added in seconds." },
+      { "h": "Make a sale", "p": "Tap items, take payment, print or text the receipt." },
+      { "h": "Track your inventory", "p": "Real-time stock levels. Low-stock alerts. No overselling." },
+      { "h": "Sell on credit (dayn)", "p": "Record debts, link to customers, send WhatsApp reminders." },
+      { "h": "Get business reports", "p": "Daily, weekly, monthly — see what sold and what didn't." },
+      { "h": "Add & manage staff", "p": "Roles, permissions, and activity logs for every team member." }
+    ]
+  },
+  "featureBand": [
+    { "h": "Secure data", "p": "Every sale and record is encrypted and backed up to the cloud — private and protected." },
+    { "h": "Cloud-secure", "p": "Lose your phone? No problem. Log in on a new device and everything's there." },
+    { "h": "Bluetooth receipts", "p": "Print to any thermal printer, or send a receipt via WhatsApp or SMS." },
+    { "h": "Level-up rewards", "p": "Earn XP for sales and referrals. Unlock higher limits — free, forever." }
+  ],
+  "inside": {
+    "eyebrow": "Inside the app",
+    "titlePre": "Every tool your shop ",
+    "titleEm": "actually uses.",
+    "desc": "No bloat, no training manuals. Five things, done extremely well.",
+    "daynKicker": "Dayn tracker",
+    "daynTitle": "Customer credit, without the paper book",
+    "daynDesc": "Every credit sale is linked to a customer. See who owes what, record partial payments, and send a polite WhatsApp reminder with one tap.",
+    "daynOpen": "Open dayn",
+    "daynSummary": "3 customers · $74.50",
+    "daynRemind": "Remind",
+    "daynLeft": "left",
+    "invKicker": "Inventory",
+    "invTitle": "Stock that counts itself",
+    "invDesc": "Every sale updates your stock in real time — with alerts before you run out.",
+    "invLeft": "left",
+    "invLow": "Low stock",
+    "reportsKicker": "Reports",
+    "reportsTitle": "Know your best day",
+    "reportsDesc": "Daily, weekly, and monthly summaries — what sold, what didn't.",
+    "barcodeKicker": "Barcode",
+    "barcodeTitle": "Scan with your camera",
+    "barcodeDesc": "No extra hardware — your phone camera is the scanner."
+  },
+  "business": {
+    "eyebrow": "Who it's for",
+    "titlePre": "Built around ",
+    "titleEm": "your",
+    "titlePost": " kind of shop.",
+    "desc": "Pick your business — Raad adapts to how you actually sell.",
+    "types": [
+      { "name": "Grocery & supermarket", "desc": "High-volume days, hundreds of small sales. Raad keeps the queue moving and the shelves counted.", "chips": ["Barcode-first checkout", "Crate & bulk pricing", "Low-stock alerts"] },
+      { "name": "Clothing & boutique", "desc": "Sizes, colors, and seasons. Track every variant and see which styles actually move.", "chips": ["Size & color variants", "Seasonal reports", "Customer credit (dayn)"] },
+      { "name": "Cosmetics & beauty", "desc": "Small items, big margins. Bundle products, watch expiry dates, and send digital receipts.", "chips": ["Expiry tracking", "Bundles & offers", "WhatsApp receipts"] },
+      { "name": "Electronics", "desc": "High-value sales need a paper trail. Record serial numbers and back every warranty with a receipt.", "chips": ["IMEI & serial notes", "Warranty receipts", "High-value dayn"] },
+      { "name": "Bookshop & stationery", "desc": "Thousands of small SKUs and a school-season rush. Find any item in seconds.", "chips": ["Instant product search", "Season-rush ready", "Bulk product import"] },
+      { "name": "Restaurants & cafés", "desc": "Fast orders at the counter. Quick keys for your menu, daily totals when the doors close.", "chips": ["Quick-key menu", "Staff shifts", "Kitchen & counter receipts"] }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "titlePre": "Start free. ",
+    "titleEm": "Stay free",
+    "titlePost": " — or go Pro.",
+    "desc": "Try Raad Pro free for 14 days — no card required. Upgrade only when your shop outgrows the Starter plan.",
+    "annual": "Annual",
+    "monthly": "Monthly",
+    "save": "Save 17%",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "starterTier": "Starter",
+    "starterBadge": "Free",
+    "starterSub": "Always free — perfect for small shops just getting started.",
+    "starterCta": "Download free",
+    "starterFeats": [
+      "Up to 50 products",
+      "Basic sales reports",
+      "2 staff accounts",
+      "Expense management",
+      "PDF reports",
+      "POS hardware support",
+      "Standard support"
+    ],
+    "proTier": "Raad Pro",
+    "proPopular": "Most popular",
+    "proNoteAnnual": "≈ $4.16/mo · billed yearly · save 17%",
+    "proNoteMonthly": "billed monthly",
+    "proSub": "For the smart shop owner who wants the full Raad Pro experience — and to grow.",
+    "proCta": "Start 14-day free trial",
+    "proFeats": [
+      "Everything in Starter, plus:",
+      "Advanced reports & analytics",
+      "Unlimited products",
+      "Up to 10 staff accounts",
+      "Credit / debt (dayn) management",
+      "Stock alerts",
+      "Discount management",
+      "Supplier integration"
+    ],
+    "note": "Prices in USD. Cancel anytime — your data stays yours, on Starter or Pro."
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "titlePre": "Frequently ",
+    "titleEm": "asked.",
+    "items": [
+      { "q": "What is Raad?", "a": "Raad is an all-in-one Point of Sale app that turns your smartphone into a complete business management system. It replaces paper notebooks with a smart, secure, simple solution — track sales, inventory, customer credit (dayn), and business insights, all in one place." },
+      { "q": "How does Raad keep my data secure?", "a": "Your business data is encrypted in transit and at rest, and automatically backed up to the cloud. Only you and the staff you authorize can access it — with roles and permissions you control, so your sales, products, and customers stay private and protected." },
+      { "q": "What if my products don't have barcodes?", "a": "No problem. Add any product manually, or use your camera to scan barcodes. Perfect for shops selling both manufactured goods and local or handmade items like sambusas, crafts, or fresh produce." },
+      { "q": "How does the customer credit (dayn) feature work?", "a": "Replace your paper debt book with our Dayn Tracker. Link each credit sale to a customer, track the full transaction history, record partial payments, and send polite WhatsApp or SMS reminders with one tap — so you recover money faster." },
+      { "q": "Is my business data safe and private?", "a": "Yes — security is our top priority. All data is encrypted and backed up to the cloud. If your phone is lost or broken, just log in from a new device and your sales, products, and customers are instantly restored." },
+      { "q": "What is the \"Level Up\" system?", "a": "Instead of a restricted free plan, Raad rewards you for using the app. Start at Level 1 with generous limits. Earn XP by making sales and referring other shops — level up to unlock higher product, staff, and feature limits. Free, forever." },
+      { "q": "How do I print receipts for customers?", "a": "Raad connects to most Bluetooth thermal printers. After each sale, print a physical receipt, or send a digital one via WhatsApp or SMS — saving paper and giving customers flexibility." }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Stop writing.",
+    "titleLine2": "Start scaling.",
+    "desc": "Join 12,800+ shop owners using Raad to run smarter, faster businesses — every day.",
+    "download": "Download free",
+    "talk": "Talk to sales"
+  },
+  "footer": {
+    "tagline": "A smart, fast, simple point-of-sale app for small and medium businesses. Manage sales, track products, and run your shop effortlessly.",
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "features": "Features",
+    "pricing": "Pricing",
+    "hardware": "Hardware",
+    "documentation": "Documentation",
+    "support": "Support",
+    "contact": "Contact",
+    "about": "About us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "getStarted": "Get started",
+    "privacyShort": "Privacy",
+    "termsShort": "Terms",
+    "rights": "© 2026 Raad — RAAD HQ. All rights reserved."
+  }
+}

@@ -1,0 +1,37 @@
+<svg width="600" height="440" viewBox="0 0 600 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The old way — paper notebook">
+  <defs>
+    <linearGradient id="oldBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22242c"/>
+      <stop offset="1" stop-color="#16181f"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc6b4"/>
+      <stop offset="1" stop-color="#a99f8b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="440" fill="url(#oldBg)"/>
+  <!-- notebook -->
+  <g transform="rotate(-6 300 220)">
+    <rect x="170" y="96" width="260" height="248" rx="8" fill="url(#paper)"/>
+    <rect x="170" y="96" width="20" height="248" fill="#8a8270"/>
+    <g stroke="#7d7560" stroke-width="2" opacity="0.6">
+      <line x1="208" y1="140" x2="406" y2="140"/>
+      <line x1="208" y1="170" x2="406" y2="170"/>
+      <line x1="208" y1="200" x2="406" y2="200"/>
+      <line x1="208" y1="230" x2="406" y2="230"/>
+      <line x1="208" y1="260" x2="406" y2="260"/>
+      <line x1="208" y1="290" x2="406" y2="290"/>
+    </g>
+    <g stroke="#4a4538" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <path d="M214 134 q18 -8 36 2 t36 -2"/>
+      <path d="M214 224 q24 -6 48 4"/>
+      <path d="M214 284 q30 -8 60 2"/>
+    </g>
+  </g>
+  <!-- pen -->
+  <g transform="rotate(28 430 300)">
+    <rect x="406" y="250" width="10" height="150" rx="5" fill="#3b3f4a"/>
+    <polygon points="406,400 416,400 411,418" fill="#2a2d35"/>
+  </g>
+  <rect width="600" height="440" fill="#000000" opacity="0.06"/>
+</svg>

@@ -1,0 +1,310 @@
+{
+  "lang": {
+    "en": "EN",
+    "so": "SO",
+    "switchTo": "Beddel luqadda"
+  },
+  "nav": {
+    "features": "Astaamaha",
+    "pricing": "Qiimaha",
+    "docs": "Dukumentiga",
+    "hardware": "Qalabka",
+    "support": "Taageero",
+    "getApp": "Hel abka"
+  },
+  "hero": {
+    "badge": "Iibi si caqli leh · v2.4 hadda diyaar",
+    "titleLine1": "Hal nidaam. Xal buuxa.",
+    "titlePre": "Kobci oo xooji ",
+    "titleAccent": "ganacsigaaga.",
+    "leadPre": "Raad POS wuxuu beddelaa buug-yaraantaada kasht-rejister caqli leh. La soco iibka, alaabta, iyo deynta macaamiisha (",
+    "leadEm": "dayn",
+    "leadPost": ") — hal taleefan, diiwaan kastana waa la siriyay oo lagu kaydiyay daruurta.",
+    "ctaDownload": "Ka soo deji Play Store",
+    "ctaDemo": "Daawo bandhig 90 ilbiriqsi",
+    "statBiz": "Noocyo ganacsi",
+    "statUnits": "Nidaam cabbir",
+    "statSetup": "Ilaa iibka koowaad",
+    "phoneGreeting": "Subax wanaagsan, Amina",
+    "phoneDashboard": "Dashboard-ka maanta",
+    "phoneTotalSales": "Wadarta iibka",
+    "phoneTrend": "18% marka loo eego shalay",
+    "cardToday": "Maanta",
+    "cardDaynPaid": "Dayn la bixiyay"
+  },
+  "strip": {
+    "label": "Lagu kalsoon yahay Soomaaliya oo dhan",
+    "items": [
+      "Baqaal",
+      "Dhar",
+      "Qurxin",
+      "Elektaroonig",
+      "Buugaag",
+      "Maqaayado",
+      "Jumlad"
+    ]
+  },
+  "ways": {
+    "eyebrow": "Isbeddelka",
+    "titlePre": "Hab cusub oo wax loo ",
+    "titleEm": "iibiyo.",
+    "desc": "Iibku wuxuu ku noolaa buugaagta. Maanta, wuxuu ku nool yahay taleefankaaga.",
+    "oldTag": "Hore",
+    "oldTitle": "Habkii hore",
+    "oldDesc": "Buugaag qasan. Rasiidho lumay. Deymo la illoobay.",
+    "newTag": "Raad la wadaag",
+    "newTitle": "Habka cusub",
+    "newDesc": "Maamul, iibi, oo kobci — dhammaan hal madal AI ku shaqeysa."
+  },
+  "how": {
+    "eyebrow": "Siddeed tallaabo",
+    "titlePre": "Sida Raad u ",
+    "titleEm": "shaqeeyo.",
+    "desc": "Laga bilaabo rakibaadda ilaa iibka ugu horreeya wax ka yar shan daqiiqo — tababar looma baahna.",
+    "phoneTitle": "Guudmarka maanta",
+    "phoneRevenue": "Dakhli",
+    "phoneOrders": "Dalabyo",
+    "steps": [
+      {
+        "h": "Rakib Raad",
+        "p": "Ka soo deji Play Store — wax ka yar 30 MB."
+      },
+      {
+        "h": "Samee akoonkaaga",
+        "p": "Iskudiiwaangeli iimaylkaaga oo deji astaanta ganacsigaaga."
+      },
+      {
+        "h": "Ku dar alaabtaada",
+        "p": "Sawir barcode-yada ama gacanta ku qor — daqiiqado gudahood."
+      },
+      {
+        "h": "Samee iib",
+        "p": "Taabo alaabta, qaado lacagta, daabac ama u dir rasiidka."
+      },
+      {
+        "h": "La soco alaabtaada",
+        "p": "Heerar alaab oo waqtigaas ah. Digniin alaab-yari. Iib xad-dhaaf ma jiro."
+      },
+      {
+        "h": "Iibi deyn ahaan (dayn)",
+        "p": "Diiwaangeli deymaha, ku xidh macaamiisha, dir xasuusin WhatsApp."
+      },
+      {
+        "h": "Hel warbixino ganacsi",
+        "p": "Maalin, toddobaad, bil — arag waxa iibsamay iyo waxan iibsamin."
+      },
+      {
+        "h": "Kudar oo maamul shaqaalaha",
+        "p": "Doorar, oggolaansho, iyo diiwaan dhaqdhaqaaq qof kasta oo kooxda ah."
+      }
+    ]
+  },
+  "featureBand": [
+    {
+      "h": "Xog sugan",
+      "p": "Iib iyo diiwaan kastaa waa la siriyay oo lagu kaydiyay daruurta — gaar ah oo la ilaaliyo."
+    },
+    {
+      "h": "Daruur-sugan",
+      "p": "Taleefankaagu ma lumay? Wax dhib ah ma leh. Ku gal aalad cusub oo wax walba way joogaan."
+    },
+    {
+      "h": "Rasiidh Bluetooth",
+      "p": "U daabac daabace kasta oo kulul, ama u dir rasiid WhatsApp ama SMS."
+    },
+    {
+      "h": "Abaalmarin heer-kor",
+      "p": "Hel XP iibka iyo soo-jeedinta. Fur xadad sare — bilaash, weligaa."
+    }
+  ],
+  "inside": {
+    "eyebrow": "Gudaha abka",
+    "titlePre": "Qalab kasta oo dukaankaagu ",
+    "titleEm": "dhab u isticmaalo.",
+    "desc": "Buux la'aan, buug tababar la'aan. Shan shay, si aad u fiican loo sameeyay.",
+    "daynKicker": "Raad-raaca dayn",
+    "daynTitle": "Deynta macaamiisha, buug warqad la'aan",
+    "daynDesc": "Iib kasta oo deyn ah waxa lagu xidhaa macmiil. Arag cidda waxa ku leh, diiwaangeli bixin qayb ah, oo hal taabo dir xasuusin WhatsApp oo edeb leh.",
+    "daynOpen": "Dayn furan",
+    "daynSummary": "3 macmiil · $74.50",
+    "daynRemind": "Xasuusi",
+    "daynLeft": "ka hadhay",
+    "invKicker": "Alaabta",
+    "invTitle": "Alaab is-tirisa",
+    "invDesc": "Iib kastaa wuxuu cusbooneysiiyaa alaabtaada waqtigaas — digniin ka hor inta aanad dhammaan.",
+    "invLeft": "ka hadhay",
+    "invLow": "Alaab yar",
+    "reportsKicker": "Warbixino",
+    "reportsTitle": "Ogow maalintaada ugu fiican",
+    "reportsDesc": "Soo-koobid maalin, toddobaad, iyo bil — waxa iibsamay iyo waxan iibsamin.",
+    "barcodeKicker": "Barcode",
+    "barcodeTitle": "Ku sawir kamaradkaaga",
+    "barcodeDesc": "Qalab dheeraad ah ma jiro — kamaradka taleefankaagu waa sawiraha."
+  },
+  "business": {
+    "eyebrow": "Cidda loogu talagalay",
+    "titlePre": "Lagu dhisay ",
+    "titleEm": "nooca",
+    "titlePost": " dukaankaaga.",
+    "desc": "Dooro ganacsigaaga — Raad wuxuu la qabsadaa sida aad dhab ahaan u iibiso.",
+    "types": [
+      {
+        "name": "Baqaal & dukaan weyn",
+        "desc": "Maalmo mashquul ah, boqolaal iib yaryar. Raad wuxuu safka socodsiiyaa oo alaabta tiriyaa.",
+        "chips": [
+          "Lacag-bixin barcode hore",
+          "Qiimo sanduuq & jumlad",
+          "Digniin alaab-yari"
+        ]
+      },
+      {
+        "name": "Dhar & boutique",
+        "desc": "Cabbirro, midabbo, iyo xilliyo. La soco nooc kasta oo arag qaababka dhabta u dhaqaaqa.",
+        "chips": [
+          "Cabbir & midab kala duwan",
+          "Warbixino xilliyeed",
+          "Deyn macmiil (dayn)"
+        ]
+      },
+      {
+        "name": "Qurxin & quruxda",
+        "desc": "Alaab yaryar, faa'iido weyn. Isku xidh alaabta, eeg taariikhda dhicitaanka, dir rasiid dijital ah.",
+        "chips": [
+          "Raad-raac dhicitaan",
+          "Xidhmo & dalacsiimo",
+          "Rasiidh WhatsApp"
+        ]
+      },
+      {
+        "name": "Elektaroonig",
+        "desc": "Iibka qiimo weyn waxa u baahan diiwaan. Diiwaangeli lambarrada taxanaha oo rasiid ku taageer dammaanad kasta.",
+        "chips": [
+          "IMEI & lambar taxane",
+          "Rasiidh dammaanad",
+          "Dayn qiimo sare"
+        ]
+      },
+      {
+        "name": "Dukaan buug & qalin",
+        "desc": "Kumannaan SKU yaryar iyo xilli dugsi mashquul ah. Hel shay kasta ilbiriqsiyo gudahood.",
+        "chips": [
+          "Raadin alaab degdeg ah",
+          "Diyaar xilli-dugsi",
+          "Soo-dejin alaab badan"
+        ]
+      },
+      {
+        "name": "Maqaayado & cafe",
+        "desc": "Dalabyo degdeg ah miiska. Furayaal degdeg ah menu-gaaga, wadarta maalinlaha marka albaabbada la xidho.",
+        "chips": [
+          "Menu fure-degdeg",
+          "Shaqaale shifd",
+          "Rasiidh jiko & miis"
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Qiimaha",
+    "titlePre": "Bilow bilaash. ",
+    "titleEm": "Ku sii jir bilaash",
+    "titlePost": " — ama u gud Pro.",
+    "desc": "Tijaabi Raad Pro bilaash 14 maalmood — kaar looma baahna. Kor u qaad oo keliya marka dukaankaagu ka weynaado qorshaha Starter.",
+    "annual": "Sannadle",
+    "monthly": "Bishii",
+    "save": "Badbaadi 17%",
+    "perMonth": "/ bishii",
+    "perYear": "/ sannadkii",
+    "starterTier": "Starter",
+    "starterBadge": "Bilaash",
+    "starterSub": "Had iyo jeer bilaash — ku habboon dukaamada yaryar ee cusub.",
+    "starterCta": "Ka soo deji bilaash",
+    "starterFeats": [
+      "Ilaa 50 alaab",
+      "Warbixino iib aasaasi ah",
+      "2 akoon shaqaale",
+      "Maamulka kharashka",
+      "Warbixino PDF",
+      "Taageero qalab POS",
+      "Taageero caadi ah"
+    ],
+    "proTier": "Raad Pro",
+    "proPopular": "Ugu caansan",
+    "proNoteAnnual": "≈ $4.16/bil · sannadle la bixiyo · badbaadi 17%",
+    "proNoteMonthly": "bishii la bixiyo",
+    "proSub": "Milkiilaha dukaanka caqliga leh ee rabа waayo-aragnimada buuxda ee Raad Pro — iyo inuu kobco.",
+    "proCta": "Bilow tijaabo 14-maalmood bilaash",
+    "proFeats": [
+      "Waxa Starter ku jira oo dhan, oo lagu daray:",
+      "Warbixino & falanqayn horumarsan",
+      "Alaab aan xad lahayn",
+      "Ilaa 10 akoon shaqaale",
+      "Maamulka deynta (dayn)",
+      "Digniino alaabeed",
+      "Maamulka dalacsiinta",
+      "Isku-xidhka alaab-qeybiyaha"
+    ],
+    "note": "Qiimaha USD. Goor kasta jooji — xogtaadu adigaa iska leh, Starter ama Pro."
+  },
+  "faq": {
+    "eyebrow": "Su'aalo",
+    "titlePre": "Su'aalaha ",
+    "titleEm": "badanaa la weydiiyo.",
+    "items": [
+      {
+        "q": "Waa maxay Raad?",
+        "a": "Raad waa app Point of Sale isku-dhafan oo taleefankaaga u beddela nidaam maamul ganacsi oo dhammaystiran. Wuxuu beddelaa buugaagta warqadda xal caqli leh, sugan, oo fudud — la soco iibka, alaabta, deynta macaamiisha (dayn), iyo aragtiyo ganacsi, dhammaan hal meel."
+      },
+      {
+        "q": "Sidee Raad u ilaaliyaa xogtayda?",
+        "a": "Xogta ganacsigaaga waa la siriyaa marka la gudbinayo iyo marka la kaydinayo, waxaana si toos ah loogu kaydiyaa daruurta. Adiga iyo shaqaalaha aad u oggolaato ayaa keliya geli kara — doorar iyo oggolaansho aad gacanta ku haysid, si iibkaaga, alaabtaada, iyo macaamiishaadu u sii ahaadaan kuwo gaar ah oo la ilaaliyay."
+      },
+      {
+        "q": "Maxaa dhacaya haddii alaabtaydu aanay barcode lahayn?",
+        "a": "Dhib ma leh. Ku dar alaab kasta gacanta, ama kamaradka ku sawir barcode-yada. Ku habboon dukaamada iibiya alaab warshadeed iyo kuwa maxalli ah ama gacan-sameys ah sida sambuus, farshaxan, ama khudaar cusub."
+      },
+      {
+        "q": "Sidee astaanta deynta macaamiisha (dayn) u shaqeysaa?",
+        "a": "Beddel buugga deynta ee warqadda Raad-raaca Dayn. Ku xidh iib kasta oo deyn ah macmiil, la soco taariikhda dhammaystiran, diiwaangeli bixin qayb ah, oo hal taabo dir xasuusin WhatsApp ama SMS oo edeb leh — si aad dhaqso ugu soo celiso lacagta."
+      },
+      {
+        "q": "Xogtaydu ma badbaado oo gaar ma tahay?",
+        "a": "Haa — amniga ayaa ahaan mudnaantayada ugu sarreysa. Dhammaan xogta waa la siriyaa oo lagu kaydiyaa daruurta. Haddii taleefankaagu lumo ama jabo, kaliya ku gal aalad cusub iyo iibkaaga, alaabta, iyo macaamiishu si degdeg ah ayaa loo soo celiyaa."
+      },
+      {
+        "q": "Waa maxay nidaamka \"Level Up\"?",
+        "a": "Halkii laga heli lahaa qorshe bilaash xaddidan, Raad wuxuu kuu abaalmariyaa isticmaalka abka. Ka bilow Level 1 oo leh xadad deeqsi ah. Hel XP adigoo iib samaynaya oo soo jeedinaya dukaamo kale — kor u qaad si aad u furto xadad alaab, shaqaale, iyo astaamo sare. Bilaash, weligaa."
+      },
+      {
+        "q": "Sidee ugu daabacaa rasiidho macaamiisha?",
+        "a": "Raad wuxuu ku xidhmaa inta badan daabacayaasha kulul ee Bluetooth. Iib kasta kadib, daabac rasiid jireed, ama u dir mid dijital ah WhatsApp ama SMS — kaydinta warqadda iyo macaamiisha siinta dabacsanaan."
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Jooji qoritaanka.",
+    "titleLine2": "Bilow kobaca.",
+    "desc": "Ku biir 12,800+ milkiile dukaan oo isticmaalaya Raad si ay u maamulaan ganacsiyo caqli badan, degdeg ah — maalin kasta.",
+    "download": "Ka soo deji bilaash",
+    "talk": "La hadal iibka"
+  },
+  "footer": {
+    "tagline": "App Point of Sale oo caqli leh, degdeg ah, oo fudud loogu talagalay ganacsiyada yaryar iyo dhexe. Maamul iibka, la soco alaabta, oo si fudud u maamul dukaankaaga.",
+    "product": "Alaabta",
+    "resources": "Kheyraadka",
+    "company": "Shirkadda",
+    "features": "Astaamaha",
+    "pricing": "Qiimaha",
+    "hardware": "Qalabka",
+    "documentation": "Dukumentiga",
+    "support": "Taageero",
+    "contact": "Nala soo xidhiidh",
+    "about": "Ku saabsan",
+    "privacy": "Siyaasadda Asturnaanta",
+    "terms": "Shuruudaha Adeegga",
+    "getStarted": "Bilow",
+    "privacyShort": "Asturnaan",
+    "termsShort": "Shuruudo",
+    "rights": "© 2026 Raad — RAAD HQ. Dhammaan xuquuqdu way xifdisan tahay."
+  }
+}

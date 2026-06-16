@@ -1,0 +1,30 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Barcode scanner">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10303a"/><stop offset="1" stop-color="#14181f"/></linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.45" r="0.55"><stop offset="0" stop-color="#33e0ff" stop-opacity="0.24"/><stop offset="1" stop-color="#33e0ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg2)"/>
+  <ellipse cx="300" cy="200" rx="230" ry="160" fill="url(#glow2)"/>
+  <!-- barcode card -->
+  <rect x="180" y="120" width="240" height="160" rx="16" fill="#f4f6fa"/>
+  <g fill="#14181f">
+    <rect x="206" y="150" width="6" height="100"/>
+    <rect x="218" y="150" width="3" height="100"/>
+    <rect x="227" y="150" width="9" height="100"/>
+    <rect x="242" y="150" width="4" height="100"/>
+    <rect x="252" y="150" width="7" height="100"/>
+    <rect x="266" y="150" width="3" height="100"/>
+    <rect x="275" y="150" width="10" height="100"/>
+    <rect x="291" y="150" width="4" height="100"/>
+    <rect x="301" y="150" width="6" height="100"/>
+    <rect x="314" y="150" width="9" height="100"/>
+    <rect x="329" y="150" width="3" height="100"/>
+    <rect x="338" y="150" width="7" height="100"/>
+    <rect x="352" y="150" width="5" height="100"/>
+    <rect x="363" y="150" width="9" height="100"/>
+    <rect x="379" y="150" width="4" height="100"/>
+  </g>
+  <!-- scan beam -->
+  <rect x="170" y="196" width="260" height="4" rx="2" fill="#ff5a5a"/>
+  <rect x="170" y="196" width="260" height="4" rx="2" fill="#ff5a5a" opacity="0.5" filter="blur(6px)"/>
+</svg>

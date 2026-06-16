@@ -1,0 +1,78 @@
+<svg width="360" height="780" viewBox="0 0 360 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raad POS app dashboard preview">
+  <defs>
+    <linearGradient id="sales" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#569dff"/>
+      <stop offset="1" stop-color="#2f5fa0"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="360" height="780" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect width="360" height="780" fill="#16181f"/>
+
+    <!-- status bar -->
+    <text x="26" y="44" fill="#f3f4f7" font-size="14" font-weight="600">9:41</text>
+    <g fill="#b6bac4">
+      <rect x="296" y="33" width="16" height="11" rx="2"/>
+      <rect x="316" y="31" width="14" height="13" rx="2"/>
+      <rect x="334" y="34" width="12" height="10" rx="2"/>
+    </g>
+
+    <!-- header -->
+    <text x="24" y="92" fill="#7e828d" font-size="11" letter-spacing="1.2" font-weight="600">GOOD MORNING, AMINA</text>
+    <text x="23" y="120" fill="#f3f4f7" font-size="24" font-weight="700" letter-spacing="-0.5">Today's dashboard</text>
+
+    <!-- sales card -->
+    <rect x="22" y="142" width="316" height="138" rx="22" fill="url(#sales)"/>
+    <circle cx="320" cy="150" r="70" fill="#ffffff" opacity="0.12"/>
+    <text x="44" y="180" fill="#eaf2ff" font-size="11" letter-spacing="1.4" font-weight="600" opacity="0.9">TOTAL SALES</text>
+    <text x="42" y="224" fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-1">$1,284.50</text>
+    <text x="44" y="256" fill="#eaf2ff" font-size="13" opacity="0.95">▲ 18% vs yesterday</text>
+
+    <!-- transactions -->
+    <g>
+      <rect x="24" y="312" width="44" height="44" rx="13" fill="#2b2e3a"/>
+      <text x="46" y="340" fill="#569dff" font-size="20" text-anchor="middle">▦</text>
+      <text x="84" y="332" fill="#f3f4f7" font-size="15" font-weight="500">Soda crate · x2</text>
+      <text x="84" y="352" fill="#7e828d" font-size="12">09:24</text>
+      <text x="336" y="340" fill="#5ed29a" font-size="15" font-weight="700" text-anchor="end">+ $24.00</text>
+    </g>
+    <line x1="24" y1="376" x2="336" y2="376" stroke="#ffffff" stroke-opacity="0.06"/>
+    <g>
+      <rect x="24" y="392" width="44" height="44" rx="13" fill="#2b2e3a"/>
+      <text x="46" y="420" fill="#569dff" font-size="20" text-anchor="middle">▥</text>
+      <text x="84" y="412" fill="#f3f4f7" font-size="15" font-weight="500">Rice 25kg</text>
+      <text x="84" y="432" fill="#7e828d" font-size="12">09:18</text>
+      <text x="336" y="420" fill="#5ed29a" font-size="15" font-weight="700" text-anchor="end">+ $38.00</text>
+    </g>
+    <line x1="24" y1="456" x2="336" y2="456" stroke="#ffffff" stroke-opacity="0.06"/>
+    <g>
+      <rect x="24" y="472" width="44" height="44" rx="13" fill="#2b2e3a"/>
+      <text x="46" y="500" fill="#569dff" font-size="20" text-anchor="middle">◔</text>
+      <text x="84" y="492" fill="#f3f4f7" font-size="15" font-weight="500">Dayn · Hassan</text>
+      <text x="84" y="512" fill="#7e828d" font-size="12">09:02</text>
+      <text x="336" y="500" fill="#b6bac4" font-size="15" font-weight="700" text-anchor="end">$12.50</text>
+    </g>
+
+    <!-- mini chart -->
+    <rect x="22" y="556" width="316" height="120" rx="18" fill="#1b1e27"/>
+    <g fill="#569dff">
+      <rect x="44"  y="636" width="26" height="24" rx="4"/>
+      <rect x="84"  y="612" width="26" height="48" rx="4"/>
+      <rect x="124" y="624" width="26" height="36" rx="4"/>
+      <rect x="164" y="598" width="26" height="62" rx="4"/>
+      <rect x="204" y="610" width="26" height="50" rx="4"/>
+      <rect x="244" y="584" width="26" height="76" rx="4"/>
+      <rect x="284" y="606" width="26" height="54" rx="4"/>
+    </g>
+
+    <!-- nav hint -->
+    <rect x="120" y="744" width="120" height="5" rx="2.5" fill="#ffffff" opacity="0.25"/>
+
+    <rect width="360" height="780" fill="url(#screenGlow)"/>
+  </g>
+</svg>
