@@ -13,7 +13,7 @@
     "getApp": "Hel abka"
   },
   "hero": {
-    "badge": "Iibi si caqli leh · v2.4 hadda diyaar",
+    "badge": "Iibi si caqli leh · v1.3 hadda diyaar",
     "titleLine1": "Hal nidaam. Xal buuxa.",
     "titlePre": "Kobci oo xooji ",
     "titleAccent": "ganacsigaaga.",
@@ -33,15 +33,16 @@
     "cardDaynPaid": "Dayn la bixiyay"
   },
   "strip": {
-    "label": "Lagu kalsoon yahay Soomaaliya oo dhan",
+    "label": "Taageeridda Guusha Ganacsiga",
     "items": [
       "Baqaal",
       "Dhar",
       "Qurxin",
-      "Elektaroonig",
+      "Elektarooniga",
       "Buugaag",
-      "Maqaayado",
-      "Jumlad"
+      "Jumlad",
+      "Qalabka Dhismaha",
+      "Qaybaha Gaadhiga"
     ]
   },
   "ways": {
@@ -149,7 +150,7 @@
     "desc": "Dooro ganacsigaaga — Raad wuxuu la qabsadaa sida aad dhab ahaan u iibiso.",
     "types": [
       {
-        "name": "Baqaal & dukaan weyn",
+        "name": "Baqaar & dukaan weyn",
         "desc": "Maalmo mashquul ah, boqolaal iib yaryar. Raad wuxuu safka socodsiiyaa oo alaabta tiriyaa.",
         "chips": [
           "Lacag-bixin barcode hore",
@@ -158,7 +159,7 @@
         ]
       },
       {
-        "name": "Dhar & boutique",
+        "name": "Dhar & Carwo",
         "desc": "Cabbirro, midabbo, iyo xilliyo. La soco nooc kasta oo arag qaababka dhabta u dhaqaaqa.",
         "chips": [
           "Cabbir & midab kala duwan",
@@ -194,12 +195,21 @@
         ]
       },
       {
-        "name": "Maqaayado & cafe",
-        "desc": "Dalabyo degdeg ah miiska. Furayaal degdeg ah menu-gaaga, wadarta maalinlaha marka albaabbada la xidho.",
+        "name": "Qalabka dhismaha",
+        "desc": "Siminto, alwaax, iyo dalabyo wadar ah. Iibi cad ahaan ama xamuul ahaan, oo hayso deyn (dayn) qiimo weyn.",
         "chips": [
-          "Menu fure-degdeg",
-          "Shaqaale shifd",
-          "Rasiidh jiko & miis"
+          "Qiimo wadar & xamuul",
+          "Ogeysiis gaarsiin",
+          "Dayn qiimo sare"
+        ]
+      },
+      {
+        "name": "Qaybaha gaadhiga",
+        "desc": "Kumannaan qaybo iyo SKU yaryar. Si dhakhso ah u hel qaybta saxda ah barcode iyo raadin degdeg ah.",
+        "chips": [
+          "Barcode & raadin qayb",
+          "Xog is-waafaqsanaan",
+          "Digniin alaab-yari"
         ]
       }
     ]

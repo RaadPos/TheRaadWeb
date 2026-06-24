@@ -34,7 +34,7 @@ const C: Record<string, Content> = {
       "Raad is a complete ecosystem: deep inventory with a 7-tier unit system, strict staff roles, customer credit (dayn), expenses tied to your cash drawer, live reports, a supplier network, and plug-and-play hardware. It runs on the phone in your pocket and on a full web dashboard for the main counter.",
     stats: [
       ["600+", "Active shops"],
-      ["6", "Business types supported"],
+      ["7", "Business types supported"],
       ["7-tier", "Unit measurement system"],
     ],
     values: [
@@ -60,7 +60,7 @@ const C: Record<string, Content> = {
       "Raad waa nidaam dhammaystiran: bakhaar qoto dheer oo leh nidaam cabbir 7-heer, doorar shaqaale oo adag, deyn macmiil (dayn), kharashyo ku xidhan sanduuqaaga lacagta, warbixino toos ah, shabakad alaab-qeybiye, iyo qalab si fudud isugu xidha. Wuxuu ku shaqeeyaa taleefanka jeebkaaga ku jira iyo dashboard web oo buuxa oo miiska weyn.",
     stats: [
       ["600+", "Dukaamo firfircoon"],
-      ["6", "Noocyo ganacsi oo la taageero"],
+      ["7", "Noocyo ganacsi oo la taageero"],
       ["7-heer", "Nidaamka cabbirka"],
     ],
     values: [

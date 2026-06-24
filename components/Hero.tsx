@@ -29,10 +29,6 @@ export default function Hero() {
 
       {/* content */}
       <div className="relative z-[1] flex max-w-[920px] flex-col items-center">
-        <div className="reveal in mb-[30px] inline-flex items-center gap-[9px] rounded-full border border-line bg-tint/5 px-[16px] py-[7px] font-mono text-[11.5px] uppercase tracking-[0.07em] text-ink-dim">
-          <span className="h-[6px] w-[6px] rounded-full bg-accent motion-safe:animate-pulse" />
-          <span>{t("hero.badge")}</span>
-        </div>
         <h1 className="reveal in mb-[26px] font-display text-[clamp(46px,7.4vw,96px)] font-medium leading-[1.0] tracking-[-0.04em] text-balance">
           {t("hero.titleLine1")}
           <br />
@@ -54,7 +50,7 @@ export default function Hero() {
           </Link>
         </div>
         <div className="reveal in mb-[64px] flex flex-wrap items-stretch justify-center">
-          <Stat num="6" label={t("hero.statBiz")} />
+          <Stat num="7" label={t("hero.statBiz")} />
           <Stat num="7" suffix="-tier" label={t("hero.statUnits")} />
           <Stat num="5" suffix=" min" label={t("hero.statSetup")} last />
         </div>
@@ -76,8 +72,7 @@ export default function Hero() {
             label={t("hero.cardDaynPaid")}
             value="Hassan Ali"
           />
-          <div className="phone-shell relative w-[min(360px,82vw)] rounded-[46px] p-[11px] shadow-[0_-1px_0_oklch(1_0_0_/_0.22),0_40px_90px_oklch(0_0_0_/_0.55),0_0_0_1px_oklch(1_0_0_/_0.07)]">
-            {/* Screen — drop your real app screenshot here; it fills perfectly */}
+          <div className="phone-shell relative w-[min(360px,82vw)] rounded-[46px] p-[11px] shadow-[0_-1px_0_oklch(1_0_0_/_0.22),0_40px_90px_oklch(0_0_0_/_0.55),0_0_0_1px_rgb(var(--tint)/0.07)]">
             <div className="relative aspect-[9/19.5] overflow-hidden rounded-[36px] border border-tint/[0.06] bg-[oklch(0.13_0.01_260)]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -142,7 +137,7 @@ function FloatCard({
 }) {
   return (
     <div
-      className={`absolute z-[2] rounded-[16px] border border-line bg-[oklch(0.2_0.012_260_/_0.85)] px-[17px] py-[13px] shadow-[0_18px_44px_oklch(0_0_0_/_0.45)] backdrop-blur-[14px] motion-safe:animate-floaty max-md:hidden ${className}`}
+      className={`absolute z-[2] rounded-[16px] border border-line bg-[color-mix(in_srgb,var(--surface)_90%,transparent)] px-[17px] py-[13px] shadow-[0_18px_44px_oklch(0_0_0_/_0.3)] backdrop-blur-[14px] motion-safe:animate-floaty max-md:hidden ${className}`}
     >
       <div className="flex items-center gap-[12px] text-left">
         <div className="grid h-[36px] w-[36px] place-items-center rounded-[11px] bg-accent-soft text-[17px] text-accent">

@@ -30,6 +30,7 @@ export const metadata: Metadata = {
   },
   description:
     "Raad POS replaces your notebook with a smart register. Track sales, inventory, and customer credit (dayn) — from one phone, with your data encrypted and backed up to the cloud.",
+  icons: { icon: "/favicon/favicon-v2.png" },
 };
 
 export default function RootLayout({

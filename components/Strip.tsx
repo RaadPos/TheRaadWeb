@@ -8,8 +8,9 @@ const icons = [
   "bx-lotion",
   "bx-devices",
   "bx-book-library",
-  "bx-dish",
   "bx-cart",
+  "bx-building-house",
+  "bx-cog",
 ];
 
 export default function Strip() {

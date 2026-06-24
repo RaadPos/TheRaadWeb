@@ -9,7 +9,7 @@
     "getApp": "Get the app"
   },
   "hero": {
-    "badge": "Sell smartly · v2.4 out now",
+    "badge": "Sell smartly · v1.3 out now",
     "titleLine1": "Built for shop owners.",
     "titlePre": "Made to scale your ",
     "titleAccent": "business.",
@@ -29,8 +29,8 @@
     "cardDaynPaid": "Dayn paid"
   },
   "strip": {
-    "label": "Trusted across Somalia",
-    "items": ["Grocery", "Clothing", "Cosmetics", "Electronics", "Bookshop", "Restaurants", "Wholesale"]
+    "label": "Powering Business Success",
+    "items": ["Grocery", "Clothing", "Cosmetics", "Electronics", "Bookshop", "Wholesale", "Building Materials", "Spare parts"]
   },
   "ways": {
     "eyebrow": "The shift",
@@ -105,7 +105,8 @@
       { "name": "Cosmetics & beauty", "desc": "Small items, big margins. Bundle products, watch expiry dates, and send digital receipts.", "chips": ["Expiry tracking", "Bundles & offers", "WhatsApp receipts"] },
       { "name": "Electronics", "desc": "High-value sales need a paper trail. Record serial numbers and back every warranty with a receipt.", "chips": ["IMEI & serial notes", "Warranty receipts", "High-value dayn"] },
       { "name": "Bookshop & stationery", "desc": "Thousands of small SKUs and a school-season rush. Find any item in seconds.", "chips": ["Instant product search", "Season-rush ready", "Bulk product import"] },
-      { "name": "Restaurants & cafés", "desc": "Fast orders at the counter. Quick keys for your menu, daily totals when the doors close.", "chips": ["Quick-key menu", "Staff shifts", "Kitchen & counter receipts"] }
+      { "name": "Building materials", "desc": "Cement, timber, and bulk orders. Sell by the unit or by the load, and keep big-ticket credit (dayn) on the books.", "chips": ["Bulk & by-load pricing", "Delivery notes", "High-value dayn"] },
+      { "name": "Spare parts", "desc": "Thousands of small parts and SKUs. Find the exact part fast with barcodes and instant search.", "chips": ["Barcode & part search", "Compatibility notes", "Low-stock alerts"] }
     ]
   },
   "pricing": {
