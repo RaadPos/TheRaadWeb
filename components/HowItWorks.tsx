@@ -9,7 +9,7 @@ const FALLBACK_IMG = "/assets/homescreen.jpeg";
 // One screenshot per step (index-aligned with how.steps). Drop the real
 // screenshot for each step here — e.g. step 1 = Play Store, step 2 = sign-up.
 const HOW_IMAGES = [
-  "/assets/01-install.jpg", // Install Raad (Play Store)
+  "/assets/no.jpeg", // Install Raad (Play Store)
   "/assets/reg.jpeg", // Create your account
   "/assets/addd.jpeg", // Add your products
   "/assets/succ.jpeg", // Make a sale
