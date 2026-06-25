@@ -16,15 +16,15 @@ export function generateMetadata({
   params: { slug: string };
 }): Metadata {
   const doc = getDoc(params.slug);
-  if (!doc) return { title: "Documentation — Raad POS" };
+  if (!doc) return { title: "Documentation, Raad POS" };
   const url = `/docs/${doc.slug}`;
   return {
-    title: `${doc.title} — Raad POS Docs`,
+    title: `${doc.title}, Raad POS Docs`,
     description: doc.description,
     keywords: doc.keywords,
     alternates: { canonical: url },
     openGraph: {
-      title: `${doc.title} — Raad POS Docs`,
+      title: `${doc.title}, Raad POS Docs`,
       description: doc.description,
       url,
       type: "article",
@@ -32,7 +32,7 @@ export function generateMetadata({
     },
     twitter: {
       card: "summary",
-      title: `${doc.title} — Raad POS Docs`,
+      title: `${doc.title}, Raad POS Docs`,
       description: doc.description,
     },
   };

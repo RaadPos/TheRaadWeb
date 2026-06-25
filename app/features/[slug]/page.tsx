@@ -14,9 +14,9 @@ export function generateMetadata({
   params: { slug: string };
 }): Metadata {
   const f = getFeature(params.slug);
-  if (!f) return { title: "Feature — Raad POS" };
+  if (!f) return { title: "Feature, Raad POS" };
   return {
-    title: `${f.title} — Raad POS`,
+    title: `${f.title}, Raad POS`,
     description: f.short,
     alternates: { canonical: `/features/${f.slug}` },
   };

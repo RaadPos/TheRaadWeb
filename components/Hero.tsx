@@ -77,7 +77,7 @@ export default function Hero() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={APP_SCREENSHOT}
-                alt="Raad POS app — today's dashboard"
+                alt="Raad POS app, today's dashboard"
                 className="absolute inset-0 h-full w-full select-none object-cover object-top"
                 draggable={false}
               />

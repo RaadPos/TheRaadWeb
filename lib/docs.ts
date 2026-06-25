@@ -2,7 +2,7 @@
 // Documentation catalog. Each doc is a standalone, SEO-friendly article with
 // its own /docs/[slug] page. The index groups docs by category. Content is
 // structured (sections → blocks) so pages render with real headings, lists,
-// and steps — good for readers and search engines alike.
+// and steps, good for readers and search engines alike.
 // ─────────────────────────────────────────────────────────────────────────
 
 export type DocBlock =
@@ -44,18 +44,18 @@ export const DOCS: Doc[] = [
     icon: "bx-rocket",
     title: "Getting started with Raad POS",
     description:
-      "Install Raad, create your account, and make your first sale in under five minutes — no training required.",
+      "Install Raad, create your account, and make your first sale in under five minutes, no training required.",
     keywords: ["raad pos setup", "point of sale getting started", "install raad", "first sale"],
     readMinutes: 3,
     sections: [
       {
         heading: "Install the app",
         blocks: [
-          { type: "p", text: "Raad runs on the Android phone or tablet you already own — and on any computer through the web dashboard. Most shop owners start on mobile and add the desktop Web POS for the main counter later." },
+          { type: "p", text: "Raad runs on the Android phone or tablet you already own, and on any computer through the web dashboard. Most shop owners start on mobile and add the desktop Web POS for the main counter later." },
           {
             type: "steps",
             items: [
-              { title: "Download Raad", desc: "Get Raad from the Play Store — it's a small download and installs in seconds." },
+              { title: "Download Raad", desc: "Get Raad from the Play Store, it's a small download and installs in seconds." },
               { title: "Open and sign up", desc: "Create your account with your email and a password." },
               { title: "Set up your shop", desc: "Add your business name and pick your business type so Raad tailors the app to how you sell." },
             ],
@@ -65,7 +65,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Make your first sale",
         blocks: [
-          { type: "p", text: "Add a product or two, open the sale screen, tap the items into the cart, take payment, and close the sale. That's the whole loop — from install to first receipt in about five minutes." },
+          { type: "p", text: "Add a product or two, open the sale screen, tap the items into the cart, take payment, and close the sale. That's the whole loop, from install to first receipt in about five minutes." },
           { type: "note", variant: "tip", title: "Tip", text: "You don't need a barcode scanner to start. Add products manually now, and scan codes later when you're ready." },
         ],
       },
@@ -85,13 +85,13 @@ export const DOCS: Doc[] = [
       {
         heading: "Business type & smart defaults",
         blocks: [
-          { type: "p", text: "Your business type does more than label your shop — it tunes the whole app. Raad uses it to filter the unit types you'll see and to choose sensible checkout defaults, so a boutique never wades through 'Litre' and a butchery sees 'KG' and 'Gram' first." },
+          { type: "p", text: "Your business type does more than label your shop, it tunes the whole app. Raad uses it to filter the unit types you'll see and to choose sensible checkout defaults, so a boutique never wades through 'Litre' and a butchery sees 'KG' and 'Gram' first." },
         ],
       },
       {
         heading: "Receipt & shop details",
         blocks: [
-          { type: "p", text: "Set the name, contact details, and footer note that appear on printed and digital receipts. These details are reused everywhere — receipts, reports, and customer messages." },
+          { type: "p", text: "Set the name, contact details, and footer note that appear on printed and digital receipts. These details are reused everywhere, receipts, reports, and customer messages." },
           { type: "list", items: ["Shop name and contact number", "Receipt header and thank-you footer", "Currency and tax defaults"] },
         ],
       },
@@ -113,7 +113,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Add a product",
         blocks: [
-          { type: "p", text: "Every product has a name, price, and unit. You can add one by scanning its barcode — Raad reads 1D and 2D codes — or by typing the details in for items without a barcode, like fresh produce or handmade goods." },
+          { type: "p", text: "Every product has a name, price, and unit. You can add one by scanning its barcode, Raad reads 1D and 2D codes, or by typing the details in for items without a barcode, like fresh produce or handmade goods." },
           {
             type: "steps",
             items: [
@@ -127,7 +127,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Find products fast",
         blocks: [
-          { type: "p", text: "At checkout, search by name or code and results appear instantly, even across thousands of items. When a hardware scanner fires, the event bypasses the interface entirely to find and queue the exact product variant — checkout in seconds." },
+          { type: "p", text: "At checkout, search by name or code and results appear instantly, even across thousands of items. When a hardware scanner fires, the event bypasses the interface entirely to find and queue the exact product variant, checkout in seconds." },
           { type: "note", variant: "tip", title: "Camera or reader", text: "Use your phone camera as a scanner, or pair a USB / Bluetooth reader for high-volume counters." },
         ],
       },
@@ -154,7 +154,7 @@ export const DOCS: Doc[] = [
         heading: "Bulk import a catalog",
         blocks: [
           { type: "p", text: "For shops with hundreds or thousands of SKUs, import the whole catalog at once rather than typing each item. This is ideal when you're migrating from another system or opening a new branch." },
-          { type: "note", variant: "info", title: "Keep units in mind", text: "Set the correct unit per product as you import — Raad only offers the units that fit your business type." },
+          { type: "note", variant: "info", title: "Keep units in mind", text: "Set the correct unit per product as you import, Raad only offers the units that fit your business type." },
         ],
       },
     ],
@@ -166,20 +166,20 @@ export const DOCS: Doc[] = [
     icon: "bx-ruler",
     title: "Units and fractional quantities",
     description:
-      "Raad's 7-tier unit system sells whole items, weights, liquids, and lengths — with the right keypad for each.",
+      "Raad's 7-tier unit system sells whole items, weights, liquids, and lengths, with the right keypad for each.",
     keywords: ["unit of measure pos", "sell by weight", "fractional quantity", "kg gram litre meter"],
     readMinutes: 3,
     sections: [
       {
         heading: "The 7-tier unit system",
         blocks: [
-          { type: "p", text: "Unlike systems that only count 'items', Raad supports discrete and fractional units that match how shops really sell — so you can ring up 3 pieces, 1.45 KG, or 2.5 meters with equal ease." },
+          { type: "p", text: "Unlike systems that only count 'items', Raad supports discrete and fractional units that match how shops really sell, so you can ring up 3 pieces, 1.45 KG, or 2.5 meters with equal ease." },
           {
             type: "list",
             items: [
-              "Discrete (count): Piece, Box, Bag — whole-number counters with fast tap increments.",
-              "Weight & liquid: KG, Gram, Litre — a decimal keypad slides up for fractional amounts.",
-              "Length: Meter — precise decimal input for wire, fabric, and more.",
+              "Discrete (count): Piece, Box, Bag, whole-number counters with fast tap increments.",
+              "Weight & liquid: KG, Gram, Litre, a decimal keypad slides up for fractional amounts.",
+              "Length: Meter, precise decimal input for wire, fabric, and more.",
             ],
           },
         ],
@@ -187,7 +187,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Smart domain filtering",
         blocks: [
-          { type: "p", text: "To keep the interface clean, Raad shows only the unit types that fit your business category. A boutique owner never sees 'Litre', and a butchery only sees 'KG' and 'Gram' — fewer choices, fewer mistakes." },
+          { type: "p", text: "To keep the interface clean, Raad shows only the unit types that fit your business category. A boutique owner never sees 'Litre', and a butchery only sees 'KG' and 'Gram', fewer choices, fewer mistakes." },
         ],
       },
     ],
@@ -206,14 +206,14 @@ export const DOCS: Doc[] = [
       {
         heading: "Stock that counts itself",
         blocks: [
-          { type: "p", text: "Every sale updates your stock instantly — no manual counting. Because counts stay consistent across staff and devices, several cashiers can sell at once without overselling." },
+          { type: "p", text: "Every sale updates your stock instantly, no manual counting. Because counts stay consistent across staff and devices, several cashiers can sell at once without overselling." },
         ],
       },
       {
         heading: "Stay ahead of stock-outs",
         blocks: [
           { type: "p", text: "Set a low-stock threshold per product and Raad warns you before items run out, so you reorder in time. Stock-depletion alerts also surface in your reports." },
-          { type: "note", variant: "tip", title: "Pair with suppliers", text: "When stock runs low, request more directly from suppliers on Raad — received stock flows back into your counts automatically." },
+          { type: "note", variant: "tip", title: "Pair with suppliers", text: "When stock runs low, request more directly from suppliers on Raad, received stock flows back into your counts automatically." },
         ],
       },
     ],
@@ -227,7 +227,7 @@ export const DOCS: Doc[] = [
     icon: "bx-cart",
     title: "Make a sale at checkout",
     description:
-      "A fast checkout built for busy counters — category pills, adaptive keypads, and instant scanner search.",
+      "A fast checkout built for busy counters, category pills, adaptive keypads, and instant scanner search.",
     keywords: ["pos checkout", "fast sale", "cashier screen", "retail checkout ux"],
     readMinutes: 3,
     sections: [
@@ -246,7 +246,7 @@ export const DOCS: Doc[] = [
             items: [
               { title: "Add items", desc: "Scan, search, or tap category pills to build the cart." },
               { title: "Take payment", desc: "Choose cash or credit (dayn), apply any discount or tax." },
-              { title: "Close the sale", desc: "Print or send the receipt — stock and reports update instantly." },
+              { title: "Close the sale", desc: "Print or send the receipt, stock and reports update instantly." },
             ],
           },
         ],
@@ -260,7 +260,7 @@ export const DOCS: Doc[] = [
     icon: "bx-purchase-tag",
     title: "Apply discounts and tax",
     description:
-      "Add percentage or fixed discounts and apply tax cleanly — at the line level or across the whole cart.",
+      "Add percentage or fixed discounts and apply tax cleanly, at the line level or across the whole cart.",
     keywords: ["pos discount", "tax pos", "cart discount", "percentage discount"],
     readMinutes: 2,
     sections: [
@@ -292,7 +292,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Print on every sale",
         blocks: [
-          { type: "p", text: "Raad prints over the ESC/POS command language and works with standard 58mm Bluetooth and USB thermal printers (such as the Niyama BT-58). Receipts print the moment a sale closes — or on demand from order history." },
+          { type: "p", text: "Raad prints over the ESC/POS command language and works with standard 58mm Bluetooth and USB thermal printers (such as the Niyama BT-58). Receipts print the moment a sale closes, or on demand from order history." },
         ],
       },
       {
@@ -324,7 +324,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Refunds, controlled",
         blocks: [
-          { type: "p", text: "Process a refund in one tap. Because refunds are sensitive, they require manager authority — protecting you from accidental or unauthorized reversals." },
+          { type: "p", text: "Process a refund in one tap. Because refunds are sensitive, they require manager authority, protecting you from accidental or unauthorized reversals." },
           { type: "note", variant: "tip", title: "Who can refund", text: "Cashiers can request a refund; a manager approves it. See staff roles for how permissions work." },
         ],
       },
@@ -346,7 +346,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Credit at checkout",
         blocks: [
-          { type: "p", text: "When a customer pays later, complete the checkout as a credit (dayn) sale instead of cash. There's no separate workflow — it's a payment choice at the end of any sale." },
+          { type: "p", text: "When a customer pays later, complete the checkout as a credit (dayn) sale instead of cash. There's no separate workflow, it's a payment choice at the end of any sale." },
         ],
       },
       {
@@ -377,7 +377,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Collect faster",
         blocks: [
-          { type: "p", text: "Send a polite reminder over WhatsApp or SMS in one tap. Knowing exactly who to follow up with — and when — keeps cash moving instead of sitting on a shelf." },
+          { type: "p", text: "Send a polite reminder over WhatsApp or SMS in one tap. Knowing exactly who to follow up with, and when, keeps cash moving instead of sitting on a shelf." },
         ],
       },
     ],
@@ -404,7 +404,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Approvals and logs",
         blocks: [
-          { type: "p", text: "Sensitive actions require manager approval, and every action is logged against the staff member who made it — full operational transparency, so nothing happens without a trail." },
+          { type: "p", text: "Sensitive actions require manager approval, and every action is logged against the staff member who made it, full operational transparency, so nothing happens without a trail." },
           { type: "note", variant: "info", title: "Pro feature", text: "Staff management is part of the Raad Pro tier, included in the 14-day free trial." },
         ],
       },
@@ -424,14 +424,14 @@ export const DOCS: Doc[] = [
       {
         heading: "Expenses are part of the math",
         blocks: [
-          { type: "p", text: "In Raad, expenses aren't just a text list — they're wired into your shift math, so your drawer always reconciles:" },
+          { type: "p", text: "In Raad, expenses aren't just a text list, they're wired into your shift math, so your drawer always reconciles:" },
           { type: "list", items: ["Starting Cash + Cash Sales − Logged Expenses = Expected Drawer Cash"] },
         ],
       },
       {
         heading: "Categories & reporting",
         blocks: [
-          { type: "p", text: "Mandatory categories — Transport, Utilities, Staff Allowance, and more — make end-of-month profit-leakage reports possible, showing exactly where money slips away. At close, compare expected vs. actual cash to reconcile each shift." },
+          { type: "p", text: "Mandatory categories, Transport, Utilities, Staff Allowance, and more, make end-of-month profit-leakage reports possible, showing exactly where money slips away. At close, compare expected vs. actual cash to reconcile each shift." },
         ],
       },
     ],
@@ -445,7 +445,7 @@ export const DOCS: Doc[] = [
     icon: "bx-bar-chart-alt-2",
     title: "Reports and analytics",
     description:
-      "Track real net profit, best-sellers, and stock alerts live — with a dashboard tailored to each role.",
+      "Track real net profit, best-sellers, and stock alerts live, with a dashboard tailored to each role.",
     keywords: ["pos reports", "sales analytics", "net profit report", "best selling items"],
     readMinutes: 3,
     sections: [
@@ -462,9 +462,9 @@ export const DOCS: Doc[] = [
           {
             type: "list",
             items: [
-              "Admin — owner-level access to every report, setting, and control.",
-              "Manager — approvals, staff, expenses, and profit margins.",
-              "Cashier — a fast, focused checkout view with nothing in the way.",
+              "Admin, owner-level access to every report, setting, and control.",
+              "Manager, approvals, staff, expenses, and profit margins.",
+              "Cashier, a fast, focused checkout view with nothing in the way.",
             ],
           },
         ],
@@ -487,7 +487,7 @@ export const DOCS: Doc[] = [
       {
         heading: "Your supply chain, connected",
         blocks: [
-          { type: "p", text: "Restock without leaving the app. Request inventory directly from suppliers — wholesalers and distributors — who also run on Raad, and track requested stock and incoming deliveries in one place." },
+          { type: "p", text: "Restock without leaving the app. Request inventory directly from suppliers, wholesalers and distributors, who also run on Raad, and track requested stock and incoming deliveries in one place." },
         ],
       },
       {

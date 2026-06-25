@@ -24,24 +24,24 @@ const CAMERA: Record<string, Step[]> = {
 const EXTERNAL: Record<string, Step[]> = {
   en: [
     { title: "Connect the reader", desc: "Bluetooth reader: pair it from your phone's settings. USB reader: plug it in with an OTG adapter." },
-    { title: "Use keyboard (HID) mode", desc: "Most readers work in keyboard mode out of the box — no extra drivers or configuration needed." },
+    { title: "Use keyboard (HID) mode", desc: "Most readers work in keyboard mode out of the box, no extra drivers or configuration needed." },
     { title: "Scan into Raad", desc: "With the sale screen open, pull the trigger. The scanned product is added to the cart automatically." },
   ],
   so: [
     { title: "Ku xidh akhriste", desc: "Akhriste Bluetooth: ka xidh dejimaha taleefanka. Akhriste USB: ku xidh adigoo isticmaalaya qalab OTG." },
-    { title: "Isticmaal qaab kiiboor (HID)", desc: "Akhristayaasha intooda badan waxay si toos ah ugu shaqeeyaan qaab kiiboor (HID) — darawal ama dejin dheeraad ah looma baahna." },
-    { title: "Ku sawir Raad gudihiis", desc: "Iyadoo shaashadda iibku furan tahay, jiid — alaabta la sawiray si toos ah ayaa gaariga loogu daraa." },
+    { title: "Isticmaal qaab kiiboor (HID)", desc: "Akhristayaasha intooda badan waxay si toos ah ugu shaqeeyaan qaab kiiboor (HID), darawal ama dejin dheeraad ah looma baahna." },
+    { title: "Ku sawir Raad gudihiis", desc: "Iyadoo shaashadda iibku furan tahay, jiid, alaabta la sawiray si toos ah ayaa gaariga loogu daraa." },
   ],
 };
 
 const INTEGRATE: Record<string, { label: string; body: string }> = {
   en: {
     label: "How it integrates:",
-    body: " a scanned barcode looks up the product in your inventory and adds it to the cart. If the code is new, Raad opens Add product with the barcode already filled in — so it's ready next time.",
+    body: " a scanned barcode looks up the product in your inventory and adds it to the cart. If the code is new, Raad opens Add product with the barcode already filled in, so it's ready next time.",
   },
   so: {
     label: "Sida ay isugu dhafanto:",
-    body: " barcode la sawiray wuxuu ka raadiyaa alaabta bakhaarkaaga oo gaariga ku daraa. Haddii koodhku cusub yahay, Raad wuxuu furaa Ku dar alaab oo barcode-ka horeba loo buuxiyay — si uu marka xigta diyaar u noqdo.",
+    body: " barcode la sawiray wuxuu ka raadiyaa alaabta bakhaarkaaga oo gaariga ku daraa. Haddii koodhku cusub yahay, Raad wuxuu furaa Ku dar alaab oo barcode-ka horeba loo buuxiyay, si uu marka xigta diyaar u noqdo.",
   },
 };
 

@@ -19,7 +19,7 @@ export default function SupportCta() {
             {ts("Need a hand setting up?")}
           </h3>
           <p className="mt-[4px] text-[14px] text-ink-dim">
-            {ts("Our team can walk you through connecting any device — just reach out.")}
+            {ts("Our team can walk you through connecting any device, just reach out.")}
           </p>
         </div>
         <Link href="/support" className="btn btn-primary relative max-md:w-full max-md:justify-center">

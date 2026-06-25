@@ -20,7 +20,7 @@ export default function FeaturesIndexBody() {
           </>
         }
         desc={ts(
-          "A complete Business-in-a-Box — from barcode checkout to credit, staff control, and reports. Tap any feature to see exactly how it works."
+          "A complete Business-in-a-Box, from barcode checkout to credit, staff control, and reports. Tap any feature to see exactly how it works."
         )}
       />
 
@@ -61,7 +61,7 @@ export default function FeaturesIndexBody() {
               {ts("See it all in one place")}
             </h3>
             <p className="mt-[4px] text-[14px] text-ink-dim">
-              {ts("Start free, or try every Pro feature free for 14 days — no card required.")}
+              {ts("Start free, or try every Pro feature free for 14 days, no card required.")}
             </p>
           </div>
           <Link href="/pricing" className="btn btn-primary relative max-md:w-full max-md:justify-center">

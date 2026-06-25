@@ -25,10 +25,10 @@ const C: Record<string, Content> = {
     eyebrow: "About",
     titlePre: "A business in a box, ",
     titleEm: "for every shop.",
-    desc: "Raad POS helps shop owners leave the paper notebook behind — with a smart register that tracks sales, stock, credit, and staff from one place.",
+    desc: "Raad POS helps shop owners leave the paper notebook behind, with a smart register that tracks sales, stock, credit, and staff from one place.",
     missionTitle: "Our mission",
     missionBody:
-      "Most small shops still run on paper — notebooks for sales, scraps for debts, and guesswork for stock. Raad replaces all of that with a fast, modern point of sale that any shop owner can use from day one, no training required.",
+      "Most small shops still run on paper, notebooks for sales, scraps for debts, and guesswork for stock. Raad replaces all of that with a fast, modern point of sale that any shop owner can use from day one, no training required.",
     buildTitle: "What we build",
     buildBody:
       "Raad is a complete ecosystem: deep inventory with a 7-tier unit system, strict staff roles, customer credit (dayn), expenses tied to your cash drawer, live reports, a supplier network, and plug-and-play hardware. It runs on the phone in your pocket and on a full web dashboard for the main counter.",
@@ -38,23 +38,23 @@ const C: Record<string, Content> = {
       ["7-tier", "Unit measurement system"],
     ],
     values: [
-      { icon: "bx-rocket", title: "Fast by default", desc: "Checkout is built for busy counters — every tap, scan, and total is tuned for speed." },
+      { icon: "bx-rocket", title: "Fast by default", desc: "Checkout is built for busy counters, every tap, scan, and total is tuned for speed." },
       { icon: "bx-lock-alt", title: "Secure & yours", desc: "Your data is encrypted, backed up to the cloud, and always belongs to you." },
       { icon: "bx-box", title: "The whole widget", desc: "Software and pre-tested hardware together, so there's no setup friction for merchants." },
       { icon: "bx-globe", title: "Built for the market", desc: "Deep localization, including native Somali phrasing across the whole app." },
     ],
     ctaTitle: "Run your shop the smart way",
-    ctaDesc: "Start free, or try Raad Pro free for 14 days — no card required.",
+    ctaDesc: "Start free, or try Raad Pro free for 14 days, no card required.",
     ctaBtn: "See pricing",
   },
   so: {
     eyebrow: "Ku saabsan",
     titlePre: "Ganacsi sanduuq ku jira, ",
     titleEm: "dukaan kasta.",
-    desc: "Raad POS wuxuu ka caawiyaa milkiilayaasha dukaamada inay ka tagaan buugga warqadda — kasht-rejister caqli leh oo ka raaca iibka, alaabta, deynta, iyo shaqaalaha hal meel.",
+    desc: "Raad POS wuxuu ka caawiyaa milkiilayaasha dukaamada inay ka tagaan buugga warqadda, kasht-rejister caqli leh oo ka raaca iibka, alaabta, deynta, iyo shaqaalaha hal meel.",
     missionTitle: "Hadafkayaga",
     missionBody:
-      "Dukaamada yaryar intooda badan wali waxay ku shaqeeyaan warqad — buugaag iibka, jeexjeex deymaha, iyo malayn alaabta. Raad wuxuu kuwaas oo dhan ku beddelaa point-of-sale dhakhso ah oo casri ah oo milkiile kasta isticmaali karo maalinta koowaad, tababar la'aan.",
+      "Dukaamada yaryar intooda badan wali waxay ku shaqeeyaan warqad, buugaag iibka, jeexjeex deymaha, iyo malayn alaabta. Raad wuxuu kuwaas oo dhan ku beddelaa point-of-sale dhakhso ah oo casri ah oo milkiile kasta isticmaali karo maalinta koowaad, tababar la'aan.",
     buildTitle: "Waxa aan dhisno",
     buildBody:
       "Raad waa nidaam dhammaystiran: bakhaar qoto dheer oo leh nidaam cabbir 7-heer, doorar shaqaale oo adag, deyn macmiil (dayn), kharashyo ku xidhan sanduuqaaga lacagta, warbixino toos ah, shabakad alaab-qeybiye, iyo qalab si fudud isugu xidha. Wuxuu ku shaqeeyaa taleefanka jeebkaaga ku jira iyo dashboard web oo buuxa oo miiska weyn.",
@@ -64,13 +64,13 @@ const C: Record<string, Content> = {
       ["7-heer", "Nidaamka cabbirka"],
     ],
     values: [
-      { icon: "bx-rocket", title: "Dhakhso ahaan", desc: "Lacag-bixinta waxaa loo dhisay miisaska mashquulka ah — taabasho, sawir, iyo wadar kasta waxaa loo hagaajiyay xawaare." },
+      { icon: "bx-rocket", title: "Dhakhso ahaan", desc: "Lacag-bixinta waxaa loo dhisay miisaska mashquulka ah, taabasho, sawir, iyo wadar kasta waxaa loo hagaajiyay xawaare." },
       { icon: "bx-lock-alt", title: "Sugan & adigaa leh", desc: "Xogtaada waa la siriyaa, lagu kaydiyaa daruurta, oo had iyo jeer adigaa iska leh." },
       { icon: "bx-box", title: "Qalabka oo dhan", desc: "Software iyo qalab hore loo tijaabiyay oo wadajira, si aan dejin culus loogu hayn ganacsatada." },
       { icon: "bx-globe", title: "Loo dhisay suuqa", desc: "Maxalliyeyn qoto dheer, oo ay ku jirto Af-Soomaali asal ah oo abka oo dhan ah." },
     ],
     ctaTitle: "Si caqli leh u maamul dukaankaaga",
-    ctaDesc: "Bilow bilaash, ama tijaabi Raad Pro bilaash 14 maalmood — kaar looma baahna.",
+    ctaDesc: "Bilow bilaash, ama tijaabi Raad Pro bilaash 14 maalmood, kaar looma baahna.",
     ctaBtn: "Eeg qiimaha",
   },
 };

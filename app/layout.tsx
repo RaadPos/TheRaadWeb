@@ -5,7 +5,7 @@ import { I18nProvider } from "@/components/I18nProvider";
 import { AppCtaProvider } from "@/components/AppCta";
 
 
-// Outfit — the Raad brand typeface (matches the app). Used for both the
+// Outfit, the Raad brand typeface (matches the app). Used for both the
 // display headings and body copy for a clean, cohesive feel.
 const outfit = Outfit({
   subsets: ["latin"],
@@ -14,7 +14,7 @@ const outfit = Outfit({
   display: "swap",
 });
 
-// IBM Plex Mono — precise, technical accents (eyebrows, labels, stats).
+// IBM Plex Mono, precise, technical accents (eyebrows, labels, stats).
 const plexMono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Raad POS replaces your notebook with a smart register. Track sales, inventory, and customer credit (dayn) — from one phone, with your data encrypted and backed up to the cloud.",
+    "Raad POS replaces your notebook with a smart register. Track sales, inventory, and customer credit (dayn), from one phone, with your data encrypted and backed up to the cloud.",
   icons: { icon: "/favicon/favicon-v2.png" },
 };
 

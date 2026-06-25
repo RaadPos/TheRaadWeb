@@ -1,4 +1,4 @@
-// Vertical numbered steps with a connecting line — used by the hardware
+// Vertical numbered steps with a connecting line, used by the hardware
 // integration guides.
 export default function SetupSteps({
   steps,

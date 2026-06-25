@@ -19,7 +19,7 @@ export default function DocsIndexBody() {
           </>
         }
         desc={ts(
-          "Clear, practical guides for everything Raad does — from your first sale to managing staff, credit, and the desktop Web POS."
+          "Clear, practical guides for everything Raad does, from your first sale to managing staff, credit, and the desktop Web POS."
         )}
       />
 

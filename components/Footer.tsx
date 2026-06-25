@@ -33,7 +33,7 @@ const cols: { headKey: string; links: { key: string; href: string }[] }[] = [
   },
 ];
 
-// Social links — placeholders for now; drop your real URLs into `href`.
+// Social links, placeholders for now; drop your real URLs into `href`.
 // Use full Boxicons class names so icons render correctly.
 const socials = [
   { icon: "bx bxl-facebook-circle", label: "Facebook", href: "https://www.facebook.com/profile.php?id=61583891177568" },

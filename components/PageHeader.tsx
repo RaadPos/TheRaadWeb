@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-// Centered page header for routed pages — clears the fixed nav and
+// Centered page header for routed pages, clears the fixed nav and
 // uses the same eyebrow / display-title treatment as the landing sections.
 export default function PageHeader({
   eyebrow,

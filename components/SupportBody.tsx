@@ -90,7 +90,7 @@ export default function SupportBody() {
         { publicKey: EMAILJS.publicKey }
       );
       setToast({
-        msg: ts("Thanks! Your message has been sent — we'll reply within 1 business day."),
+        msg: ts("Thanks! Your message has been sent, we'll reply within 1 business day."),
         type: "success",
       });
       setForm({ name: "", email: "", phone: "", topic: topics[0], message: "" });
@@ -148,7 +148,7 @@ export default function SupportBody() {
                 {ts("Reach us directly")}
               </h2>
               <p className="mb-[22px] text-[14px] text-ink-dim">
-                {ts("Pick whatever's easiest — we usually reply fast.")}
+                {ts("Pick whatever's easiest, we usually reply fast.")}
               </p>
 
               <div className="flex flex-col gap-[10px]">

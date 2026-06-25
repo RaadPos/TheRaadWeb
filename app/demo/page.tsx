@@ -3,9 +3,9 @@ import PageShell from "@/components/PageShell";
 import DemoBody from "@/components/DemoBody";
 
 export const metadata: Metadata = {
-  title: "Demo — Raad POS",
+  title: "Demo, Raad POS",
   description:
-    "Watch a quick walkthrough of Raad POS — from your first sale to inventory, credit (dayn), and reports.",
+    "Watch a quick walkthrough of Raad POS, from your first sale to inventory, credit (dayn), and reports.",
   alternates: { canonical: "/demo" },
 };
 

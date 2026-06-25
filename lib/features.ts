@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────
-// Feature catalog — drives both the /features index grid and each
+// Feature catalog, drives both the /features index grid and each
 // /features/[slug] deep-dive page. Add or edit a feature here and both
 // the card and its detail page update automatically.
 // ─────────────────────────────────────────────────────────────────────────
@@ -25,10 +25,10 @@ export const FEATURES: Feature[] = [
     tag: "Catalog",
     title: "Add products by barcode & search",
     short:
-      "Scan a barcode to add or find a product instantly — or search by name in seconds.",
+      "Scan a barcode to add or find a product instantly, or search by name in seconds.",
     lead: "Build and browse your catalog at the speed of a scan. Add products by their barcode, then find any item instantly.",
     points: [
-      { icon: "bx-barcode-reader", title: "Scan to add", desc: "Scan a 1D or 2D barcode to create a new product or pull up an existing one — no typing." },
+      { icon: "bx-barcode-reader", title: "Scan to add", desc: "Scan a 1D or 2D barcode to create a new product or pull up an existing one, no typing." },
       { icon: "bx-search", title: "Instant search", desc: "Search by product name or code. Results are instant, even across thousands of items." },
       { icon: "bx-crosshair", title: "Auto-focus checkout", desc: "A scan auto-focuses and adds the exact item to the cart, bringing checkout down to seconds." },
       { icon: "bx-mobile-alt", title: "Camera or reader", desc: "Use your phone camera as a scanner, or pair a USB / Bluetooth reader for speed." },
@@ -41,11 +41,11 @@ export const FEATURES: Feature[] = [
     tag: "Catalog",
     title: "Bulk & multiple product adding",
     short:
-      "Build your catalog fast — add many products at once instead of one at a time.",
+      "Build your catalog fast, add many products at once instead of one at a time.",
     lead: "Stocking a full shop shouldn't take all day. Add products in batches and let smart units keep it tidy.",
     points: [
       { icon: "bx-collection", title: "Add multiple products", desc: "Queue several products in one flow and save them together." },
-      { icon: "bx-upload", title: "Bulk import", desc: "Bring in a large catalog at once — ideal for shops with thousands of SKUs." },
+      { icon: "bx-upload", title: "Bulk import", desc: "Bring in a large catalog at once, ideal for shops with thousands of SKUs." },
       { icon: "bx-ruler", title: "7-tier unit system", desc: "Assign the right unit per product: Piece / Box / Bag, KG / Gram / Litre, or Meter." },
       { icon: "bx-filter-alt", title: "Smart unit filtering", desc: "Raad shows only the units that fit your business type, so the form stays clean." },
     ],
@@ -56,7 +56,7 @@ export const FEATURES: Feature[] = [
     tag: "Credit",
     title: "Sell on credit (dayn)",
     short:
-      "Close a sale as credit and link it to a customer — the paper debt book, replaced.",
+      "Close a sale as credit and link it to a customer, the paper debt book, replaced.",
     lead: "Sell on credit without losing track. Every dayn sale is recorded against a customer, ready to collect.",
     points: [
       { icon: "bx-receipt", title: "Sale on debt", desc: "Complete a checkout as credit when a customer pays later." },
@@ -71,7 +71,7 @@ export const FEATURES: Feature[] = [
     tag: "Credit",
     title: "Debt (dayn) management",
     short:
-      "A complete ledger of who owes what — and the tools to collect it.",
+      "A complete ledger of who owes what, and the tools to collect it.",
     lead: "Turn scattered notes into one clear ledger. See every balance and follow up at the right time.",
     points: [
       { icon: "bx-list-ul", title: "Open dayn ledger", desc: "See every customer's outstanding balance in a single, sorted view." },
@@ -94,7 +94,7 @@ export const FEATURES: Feature[] = [
       { icon: "bx-list-check", title: "Activity logs", desc: "Every action is logged against the staff member who made it." },
       { icon: "bx-user-plus", title: "Multiple staff", desc: "Add your whole team and give each person exactly the access they need." },
     ],
-    note: "Staff management is part of the Raad Pro tier — included in the 14-day free trial.",
+    note: "Staff management is part of the Raad Pro tier, included in the 14-day free trial.",
   },
   {
     slug: "inventory-tracking",
@@ -103,9 +103,9 @@ export const FEATURES: Feature[] = [
     title: "Inventory tracking",
     short:
       "Real-time stock that counts itself, with alerts before you run out.",
-    lead: "Stock stays accurate on its own — across every sale, staff member, and device.",
+    lead: "Stock stays accurate on its own, across every sale, staff member, and device.",
     points: [
-      { icon: "bx-revision", title: "Live stock levels", desc: "Every sale updates your stock in real time — no manual counting." },
+      { icon: "bx-revision", title: "Live stock levels", desc: "Every sale updates your stock in real time, no manual counting." },
       { icon: "bx-bell", title: "Low-stock alerts", desc: "Get warned before an item runs out, so you reorder in time." },
       { icon: "bx-ruler", title: "Whole & fractional units", desc: "Track Pieces, or fractional KG, Litre, and Meter with precision." },
       { icon: "bx-block", title: "No overselling", desc: "Counts stay consistent so you never sell what you don't have." },
@@ -117,13 +117,13 @@ export const FEATURES: Feature[] = [
     tag: "Insights",
     title: "Reports & role dashboards",
     short:
-      "Live analytics — and a different screen tailored to every role.",
+      "Live analytics, and a different screen tailored to every role.",
     lead: "Understand your business at a glance, with a dashboard built for whoever is looking at it.",
     points: [
       { icon: "bx-line-chart", title: "Live analytics", desc: "Track real net profit, best-selling items, and stock depletion instantly." },
-      { icon: "bx-history", title: "Order management", desc: "A complete digital history of every transaction — one-tap refunds and reprints." },
+      { icon: "bx-history", title: "Order management", desc: "A complete digital history of every transaction, one-tap refunds and reprints." },
       { icon: "bx-file", title: "Exportable reports", desc: "Daily, weekly, and monthly summaries, exportable to PDF and Excel." },
-      { icon: "bx-crown", title: "Admin screen", desc: "Owner-level view — all reports, settings, and full control." },
+      { icon: "bx-crown", title: "Admin screen", desc: "Owner-level view, all reports, settings, and full control." },
       { icon: "bx-shield", title: "Manager screen", desc: "Approvals, staff, expenses, and profit margins in one place." },
       { icon: "bx-cart", title: "Cashier screen", desc: "A fast, focused checkout view with nothing in the way." },
     ],
@@ -135,11 +135,11 @@ export const FEATURES: Feature[] = [
     title: "Receipt printer support",
     short:
       "Print receipts instantly over Bluetooth or USB using ESC/POS.",
-    lead: "Hand customers a receipt the moment a sale closes — or send a digital one instead.",
+    lead: "Hand customers a receipt the moment a sale closes, or send a digital one instead.",
     points: [
       { icon: "bx-printer", title: "ESC/POS printing", desc: "Works with standard 58mm Bluetooth & USB thermal printers (e.g. Niyama BT-58)." },
       { icon: "bx-receipt", title: "Instant on sale", desc: "Receipts print automatically the moment you close a sale." },
-      { icon: "bxl-whatsapp", title: "Digital receipts", desc: "Skip paper — send the receipt over WhatsApp or SMS." },
+      { icon: "bxl-whatsapp", title: "Digital receipts", desc: "Skip paper, send the receipt over WhatsApp or SMS." },
       { icon: "bx-desktop", title: "Desktop Web POS", desc: "Print from a USB printer on a computer via the WinUSB driver." },
     ],
     related: { label: "See thermal printer setup", href: "/hardware/thermal-printer" },
@@ -150,7 +150,7 @@ export const FEATURES: Feature[] = [
     tag: "Network",
     title: "Supplier network",
     short:
-      "Request stock from other businesses on Raad — your supply chain, connected.",
+      "Request stock from other businesses on Raad, your supply chain, connected.",
     lead: "Restock without leaving the app. Order from suppliers who are also on Raad and watch it flow into your inventory.",
     points: [
       { icon: "bx-cart-add", title: "Request stock", desc: "Order inventory directly from suppliers that run on Raad." },
@@ -165,11 +165,11 @@ export const FEATURES: Feature[] = [
     tag: "Cash",
     title: "Expense management",
     short:
-      "Track every shilling out — tied directly to your cash drawer.",
-    lead: "Expenses aren't just a list in Raad — they're part of your drawer math, so nothing leaks unnoticed.",
+      "Track every shilling out, tied directly to your cash drawer.",
+    lead: "Expenses aren't just a list in Raad, they're part of your drawer math, so nothing leaks unnoticed.",
     points: [
       { icon: "bx-calculator", title: "Integrated drawer math", desc: "Starting Cash + Cash Sales − Logged Expenses = Expected Drawer Cash." },
-      { icon: "bx-category", title: "Categorized expenses", desc: "Mandatory categories — Transport, Utilities, Staff Allowance, and more." },
+      { icon: "bx-category", title: "Categorized expenses", desc: "Mandatory categories, Transport, Utilities, Staff Allowance, and more." },
       { icon: "bx-trending-down", title: "Profit-leakage reports", desc: "End-of-month reports show exactly where money is slipping away." },
       { icon: "bx-check-double", title: "Shift reconciliation", desc: "Compare expected vs actual cash at the close of every shift." },
     ],
@@ -181,11 +181,11 @@ export const FEATURES: Feature[] = [
     title: "Discounts & tax",
     short:
       "Apply discounts and taxes correctly at checkout, every single time.",
-    lead: "Give a discount or add tax without second-guessing the total — Raad does the math.",
+    lead: "Give a discount or add tax without second-guessing the total, Raad does the math.",
     points: [
       { icon: "bx-purchase-tag", title: "Discount management", desc: "Percentage or fixed discounts, on a single item or the whole cart." },
       { icon: "bx-receipt", title: "Tax handling", desc: "Apply your tax rules cleanly so every sale is compliant." },
-      { icon: "bx-cart", title: "Item or cart level", desc: "Flexible — discount one line, or the entire order at once." },
+      { icon: "bx-cart", title: "Item or cart level", desc: "Flexible, discount one line, or the entire order at once." },
       { icon: "bx-calculator", title: "Always-accurate totals", desc: "Totals update live to reflect every discount and tax applied." },
     ],
   },
@@ -196,10 +196,10 @@ export const FEATURES: Feature[] = [
     title: "Desktop & Web POS",
     short:
       "Run Raad on a computer with a full web dashboard for the main counter.",
-    lead: "Floor staff on Android, the main counter on a computer — one business, perfectly in sync.",
+    lead: "Floor staff on Android, the main counter on a computer, one business, perfectly in sync.",
     points: [
       { icon: "bx-desktop", title: "Web dashboard", desc: "Robust counter operations in the browser at pos.raadapp.com." },
-      { icon: "bx-devices", title: "Cross-platform", desc: "Android for floor staff, web for the counter — the same live data." },
+      { icon: "bx-devices", title: "Cross-platform", desc: "Android for floor staff, web for the counter, the same live data." },
       { icon: "bx-printer", title: "USB hardware", desc: "Connect USB printers and scanners to the Web POS with a one-time driver step." },
       { icon: "bx-sync", title: "Real-time sync", desc: "Sales, stock, and staff stay in sync across every device, instantly." },
     ],

@@ -57,7 +57,7 @@ export default function Nav() {
           <LangSwitch />
           <SmartCta size="sm" className="max-md:hidden" />
 
-          {/* Hamburger — shown below the desktop nav breakpoint */}
+          {/* Hamburger, shown below the desktop nav breakpoint */}
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Menu"

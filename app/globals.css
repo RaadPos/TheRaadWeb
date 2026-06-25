@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* ============================================================
-   RAAD POS — design tokens (ported from the v2/v3 prototype)
+   RAAD POS, design tokens (ported from the v2/v3 prototype)
    ============================================================ */
 :root {
   --bg: oklch(0.14 0.008 260);
@@ -37,10 +37,10 @@
 }
 
 /* ============================================================
-   LIGHT MODE — follows the system / browser setting only.
+   LIGHT MODE, follows the system / browser setting only.
    Everything flows through these tokens, so flipping them
    re-themes the whole site. Device screens (phone mockups) stay
-   dark on purpose — the app screenshots are a dark UI.
+   dark on purpose, the app screenshots are a dark UI.
    ============================================================ */
 @media (prefers-color-scheme: light) {
   :root {
@@ -88,7 +88,7 @@
 }
 
 /* ============================================================
-   Component helpers — the visually-complex bits that are far
+   Component helpers, the visually-complex bits that are far
    cleaner as named classes than long arbitrary-value chains.
    Layout / spacing / typography live in the JSX as utilities.
    ============================================================ */

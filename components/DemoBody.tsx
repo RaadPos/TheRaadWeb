@@ -5,7 +5,7 @@ import SmartCta from "@/components/SmartCta";
 import { useI18n } from "@/components/I18nProvider";
 
 // ────────────────────────────────────────────────────────────────
-// Put your YouTube link here — any of these formats works:
+// Put your YouTube link here, any of these formats works:
 //   https://youtu.be/VIDEO_ID
 //   https://www.youtube.com/watch?v=VIDEO_ID
 //   https://www.youtube.com/embed/VIDEO_ID
@@ -37,7 +37,7 @@ export default function DemoBody() {
             <em>{ts("action.")}</em>
           </>
         }
-        desc={ts("Watch a short walkthrough — from first sale to reports, credit, and more.")}
+        desc={ts("Watch a short walkthrough, from first sale to reports, credit, and more.")}
       />
 
       <section className="px-[48px] pb-[80px] max-md:px-[20px]">

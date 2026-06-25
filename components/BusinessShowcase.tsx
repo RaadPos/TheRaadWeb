@@ -13,8 +13,8 @@ const META = [
   { icon: "bx bx-devices", img: "/assets/ele.webp", chipIcons: ["bx-chip", "bx-receipt", "bx-shield-quarter"] },
   { icon: "bx-library", img: "/assets/bok.avif", chipIcons: ["bx-search", "bx-trending-up", "bx-list-check"] },
   // { icon: "bx-dish", img: "/assets/coff.webp", chipIcons: ["bx-bolt-circle", "bx-time-five", "bx-receipt"] },
-  { icon: "bx-building-house", img: "/assets/biz-building.svg", chipIcons: ["bx-cube", "bx-receipt", "bx-shield-quarter"] },
-  { icon: "bx-cog", img: "/assets/biz-spareparts.svg", chipIcons: ["bx-barcode-reader", "bx-list-check", "bx-bell"] },
+  { icon: "bx-building-house", img: "/assets/bm.webp", chipIcons: ["bx-cube", "bx-receipt", "bx-shield-quarter"] },
+  { icon: "bx-cog", img: "/assets/spare.jpg", chipIcons: ["bx-barcode-reader", "bx-list-check", "bx-bell"] },
 ];
 
 

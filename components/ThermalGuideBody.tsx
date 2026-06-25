@@ -11,18 +11,18 @@ type Step = { title: string; desc: string };
 
 const STEPS: Record<string, Step[]> = {
   en: [
-    { title: "Power on & load paper", desc: "Switch on the printer and load a roll of thermal paper — Raad supports both 58mm and 80mm widths." },
+    { title: "Power on & load paper", desc: "Switch on the printer and load a roll of thermal paper, Raad supports both 58mm and 80mm widths." },
     { title: "Enable Bluetooth on your phone", desc: "Turn on Bluetooth and keep the printer within a couple of metres while you pair." },
     { title: "Pair the printer", desc: "Open your phone's Bluetooth settings and pair with the printer. If it asks for a PIN, it's usually 0000 or 1234." },
     { title: "Connect it in Raad", desc: "In Raad, go to Settings → Printer → Add printer, then choose your device from the list of paired devices." },
-    { title: "Print a test receipt", desc: "Tap Print test. Once it prints cleanly, every sale can print a receipt automatically — or on demand." },
+    { title: "Print a test receipt", desc: "Tap Print test. Once it prints cleanly, every sale can print a receipt automatically, or on demand." },
   ],
   so: [
-    { title: "Shid & geli warqad", desc: "Shid daabacaha oo geli giraan warqad kulul ah — Raad wuxuu taageeraa labadaba 58mm iyo 80mm." },
+    { title: "Shid & geli warqad", desc: "Shid daabacaha oo geli giraan warqad kulul ah, Raad wuxuu taageeraa labadaba 58mm iyo 80mm." },
     { title: "Shid Bluetooth taleefankaaga", desc: "Shid Bluetooth oo daabacaha ku hay laba mitir gudahood inta aad isku xidhayso." },
     { title: "Isku xidh daabacaha", desc: "Fur dejimaha Bluetooth ee taleefankaaga oo la xidh daabacaha. Haddii PIN la weydiiyo, badanaa waa 0000 ama 1234." },
     { title: "Ku xidh Raad gudihiis", desc: "Raad dhexdiisa, aad Dejimaha → Daabace → Ku dar daabace, kadibna ka dooro aaladdaada liiska aaladaha la xidhay." },
-    { title: "Daabac rasiid tijaabo ah", desc: "Taabo Daabac tijaabo. Marka uu si nadiif ah u daabaco, iib kastaa wuxuu si toos ah u daabici karaa rasiid — ama markaad rabto." },
+    { title: "Daabac rasiid tijaabo ah", desc: "Taabo Daabac tijaabo. Marka uu si nadiif ah u daabaco, iib kastaa wuxuu si toos ah u daabici karaa rasiid, ama markaad rabto." },
   ],
 };
 
@@ -41,38 +41,38 @@ const TIPS: Record<string, [string, string, string][]> = {
 
 const ZADIG: Record<string, Step[]> = {
   en: [
-    { title: "Get Zadig", desc: "Go to zadig.akeo.ie and download it. It's a single .exe — no install needed. Just run it, and allow it through any admin prompt." },
+    { title: "Get Zadig", desc: "Go to zadig.akeo.ie and download it. It's a single .exe, no install needed. Just run it, and allow it through any admin prompt." },
     { title: "Plug in the printer", desc: "Connect your thermal printer by USB and power it on before the next steps." },
-    { title: "Show all devices", desc: "In Zadig, open the Options menu → click List All Devices (it should get a checkmark). This is essential — without it your printer won't appear in the list." },
-    { title: "Pick your printer from the dropdown", desc: "The dropdown now lists everything. Find your thermal printer — it may show as “Thermal Printer”, a generic “USB Printing Support”, or a model code. Read the warning below before you select it." },
-    { title: "Set the target driver to WinUSB", desc: "On the right there's a box showing the target driver with a green arrow. Make sure it reads WinUSB — if there's an up/down arrow, set it to WinUSB." },
-    { title: "Replace the driver", desc: "Click Replace Driver (it may say Install Driver if there's none yet) and confirm any prompt. It takes 10–30 seconds — wait for the success message." },
-    { title: "Re-test in Raad", desc: "Unplug and replug the printer, reload pos.raadapp.com, open the Printer tab, click USB and pick the printer. It should now open without the access-denied error — then click Test print." },
+    { title: "Show all devices", desc: "In Zadig, open the Options menu → click List All Devices (it should get a checkmark). This is essential, without it your printer won't appear in the list." },
+    { title: "Pick your printer from the dropdown", desc: "The dropdown now lists everything. Find your thermal printer, it may show as “Thermal Printer”, a generic “USB Printing Support”, or a model code. Read the warning below before you select it." },
+    { title: "Set the target driver to WinUSB", desc: "On the right there's a box showing the target driver with a green arrow. Make sure it reads WinUSB, if there's an up/down arrow, set it to WinUSB." },
+    { title: "Replace the driver", desc: "Click Replace Driver (it may say Install Driver if there's none yet) and confirm any prompt. It takes 10–30 seconds, wait for the success message." },
+    { title: "Re-test in Raad", desc: "Unplug and replug the printer, reload pos.raadapp.com, open the Printer tab, click USB and pick the printer. It should now open without the access-denied error, then click Test print." },
   ],
   so: [
-    { title: "Hel Zadig", desc: "Aad zadig.akeo.ie oo soo deji. Waa hal .exe — rakibaad uma baahna. Kaliya socodsii, oo u ogolow wax kasta oo admin ah." },
+    { title: "Hel Zadig", desc: "Aad zadig.akeo.ie oo soo deji. Waa hal .exe, rakibaad uma baahna. Kaliya socodsii, oo u ogolow wax kasta oo admin ah." },
     { title: "Ku xidh daabacaha", desc: "Ku xidh daabacahaaga kulul USB oo shid ka hor tallaabooyinka xiga." },
-    { title: "Muuji dhammaan aaladaha", desc: "Zadig dhexdiisa, fur menu-ga Options → guji List All Devices (waa inuu calaamad helo). Tani waa lama huraan — la'aanteed daabacahaagu ma muuqan doono." },
-    { title: "Ka dooro daabacaha liiska hoos-u-dhaca", desc: "Liisku hadda wuxuu liisgeliyaa wax kasta. Hel daabacahaaga kulul — waxa laga yaabaa inuu u muuqdo “Thermal Printer”, “USB Printing Support”, ama kood moodel. Akhri digniinta hoose ka hor inta aanad dooran." },
-    { title: "U deji darawalka bartilmaameedka WinUSB", desc: "Dhinaca midig waxaa jira sanduuq muujinaya darawalka bartilmaameedka oo leh fallaadh cagaaran. Hubi inuu akhrinayo WinUSB — haddii ay jirto fallaadh kor/hoos, u deji WinUSB." },
-    { title: "Beddel darawalka", desc: "Guji Replace Driver (waxa laga yaabaa inuu dhaho Install Driver haddii mid jiri waayo) oo xaqiiji wax kasta. Wuxuu qaataa 10–30 ilbiriqsi — sug fariinta guusha." },
-    { title: "Dib ugu tijaabi Raad", desc: "Ka bixi oo dib ku xidh daabacaha, dib u cusbooneysii pos.raadapp.com, fur tab-ka Printer, guji USB oo dooro daabacaha. Hadda waa inuu furmaa khalad-diidmo la'aan — kadibna guji Test print." },
+    { title: "Muuji dhammaan aaladaha", desc: "Zadig dhexdiisa, fur menu-ga Options → guji List All Devices (waa inuu calaamad helo). Tani waa lama huraan, la'aanteed daabacahaagu ma muuqan doono." },
+    { title: "Ka dooro daabacaha liiska hoos-u-dhaca", desc: "Liisku hadda wuxuu liisgeliyaa wax kasta. Hel daabacahaaga kulul, waxa laga yaabaa inuu u muuqdo “Thermal Printer”, “USB Printing Support”, ama kood moodel. Akhri digniinta hoose ka hor inta aanad dooran." },
+    { title: "U deji darawalka bartilmaameedka WinUSB", desc: "Dhinaca midig waxaa jira sanduuq muujinaya darawalka bartilmaameedka oo leh fallaadh cagaaran. Hubi inuu akhrinayo WinUSB, haddii ay jirto fallaadh kor/hoos, u deji WinUSB." },
+    { title: "Beddel darawalka", desc: "Guji Replace Driver (waxa laga yaabaa inuu dhaho Install Driver haddii mid jiri waayo) oo xaqiiji wax kasta. Wuxuu qaataa 10–30 ilbiriqsi, sug fariinta guusha." },
+    { title: "Dib ugu tijaabi Raad", desc: "Ka bixi oo dib ku xidh daabacaha, dib u cusbooneysii pos.raadapp.com, fur tab-ka Printer, guji USB oo dooro daabacaha. Hadda waa inuu furmaa khalad-diidmo la'aan, kadibna guji Test print." },
   ],
 };
 
 type Note = { variant: "warn" | "tip" | "info"; icon?: string; title: string; body: string };
 const CALLOUTS: Record<string, Note[]> = {
   en: [
-    { variant: "warn", title: "Select the printer — and nothing else", body: "This is the one step to be careful on. Replacing the driver on the wrong device — a mouse, keyboard, Wi-Fi adapter, or USB hub — will break it. Not sure which entry is the printer? Unplug it, note what disappears from the list, plug it back in, and select the entry that reappears." },
+    { variant: "warn", title: "Select the printer, and nothing else", body: "This is the one step to be careful on. Replacing the driver on the wrong device, a mouse, keyboard, Wi-Fi adapter, or USB hub, will break it. Not sure which entry is the printer? Unplug it, note what disappears from the list, plug it back in, and select the entry that reappears." },
     { variant: "tip", title: "Dropdown empty? Turn on “List All Devices”", body: "If the dropdown is empty, you haven't enabled it yet. Open Options → List All Devices (it should get a checkmark), then reopen the dropdown. Still empty? Unplug the printer, watch the list, plug it back in, and select the entry that appears." },
     { variant: "warn", icon: "bx-error-circle", title: "Saw “Driver Installation: SUCCESS” with an empty dropdown?", body: "Zadig may have applied WinUSB to whatever was selected. First, check your mouse, keyboard, and other USB devices still work normally. If something broke, reverse it: open Device Manager → find the device → Uninstall device → then unplug and replug it to restore the original driver." },
-    { variant: "info", icon: "bx-info-circle", title: "Good to know", body: "Once WinUSB is installed, Windows' normal printing for this printer is replaced — it becomes browser-only. For a dedicated POS receipt printer that's exactly what you want. But if you also print to this printer from Word or other apps, don't do this — or reverse it later via Device Manager → uninstall device → replug to restore the default driver." },
+    { variant: "info", icon: "bx-info-circle", title: "Good to know", body: "Once WinUSB is installed, Windows' normal printing for this printer is replaced, it becomes browser-only. For a dedicated POS receipt printer that's exactly what you want. But if you also print to this printer from Word or other apps, don't do this, or reverse it later via Device Manager → uninstall device → replug to restore the default driver." },
   ],
   so: [
-    { variant: "warn", title: "Dooro daabacaha — wax kalena ha dooran", body: "Tani waa tallaabada keliya ee in laga taxaddaro. Beddelka darawalka aalad qaldan — jiir, kiiboor, qalab WiFi, ama hub USB — wuu jebin doonaa. Ma hubtid kaas oo ah daabacaha? Ka bixi, ogow waxa liiska ka baxa, dib ku xidh, oo dooro shayga dib u soo muuqda." },
+    { variant: "warn", title: "Dooro daabacaha, wax kalena ha dooran", body: "Tani waa tallaabada keliya ee in laga taxaddaro. Beddelka darawalka aalad qaldan, jiir, kiiboor, qalab WiFi, ama hub USB, wuu jebin doonaa. Ma hubtid kaas oo ah daabacaha? Ka bixi, ogow waxa liiska ka baxa, dib ku xidh, oo dooro shayga dib u soo muuqda." },
     { variant: "tip", title: "Liisku waa madhan yahay? Shid “List All Devices”", body: "Haddii liisku madhan yahay, weli ma shidin. Fur Options → List All Devices (waa inuu calaamad helo), kadibna dib u fur liiska. Weli madhan? Ka bixi daabacaha, eeg liiska, dib ku xidh, oo dooro shayga soo muuqda." },
     { variant: "warn", icon: "bx-error-circle", title: "Ma aragtay “Driver Installation: SUCCESS” liis madhan?", body: "Zadig wuxuu laga yaabaa inuu WinUSB ku rakibay wax kasta oo la doortay. Marka hore, hubi in jiirkaaga, kiiboorkaaga, iyo aaladaha kale ee USB ay weli si caadi ah u shaqeynayaan. Haddii wax jabay, dib u celi: fur Device Manager → hel aaladda → Uninstall device → kadibna ka bixi oo dib ku xidh si aad u soo celiso darawalka asalka ah." },
-    { variant: "info", icon: "bx-info-circle", title: "Wax wanaagsan in la ogaado", body: "Marka WinUSB la rakibo, daabacaadda caadiga ah ee Windows ee daabacahan waa la beddelaa — wuxuu noqdaa browser-keliya. Daabace rasiid POS oo gaar ah taasi waa waxaad doonayso. Laakiin haddii aad sidoo kale uga daabacto daabacahan Word ama abyo kale, ha samayn — ama dib u celi Device Manager → uninstall device → dib u xidh si aad u soo celiso darawalka caadiga ah." },
+    { variant: "info", icon: "bx-info-circle", title: "Wax wanaagsan in la ogaado", body: "Marka WinUSB la rakibo, daabacaadda caadiga ah ee Windows ee daabacahan waa la beddelaa, wuxuu noqdaa browser-keliya. Daabace rasiid POS oo gaar ah taasi waa waxaad doonayso. Laakiin haddii aad sidoo kale uga daabacto daabacahan Word ama abyo kale, ha samayn, ama dib u celi Device Manager → uninstall device → dib u xidh si aad u soo celiso darawalka caadiga ah." },
   ],
 };
 
@@ -93,7 +93,7 @@ export default function ThermalGuideBody() {
             <em>{ts("thermal printer.")}</em>
           </>
         }
-        desc={ts("Connect a Bluetooth receipt printer to Raad in about a minute — here's exactly how.")}
+        desc={ts("Connect a Bluetooth receipt printer to Raad in about a minute, here's exactly how.")}
       />
 
       <section className="px-[48px] max-md:px-[20px]">
@@ -127,7 +127,7 @@ export default function ThermalGuideBody() {
             <span className="rounded-[6px] border border-line bg-bg px-[6px] py-[2px] font-mono text-[13px] text-accent">
               pos.raadapp.com/settings
             </span>
-            {ts(". To print to a USB thermal printer, the browser needs the WinUSB driver — you install it once with a free tool called Zadig.")}
+            {ts(". To print to a USB thermal printer, the browser needs the WinUSB driver, you install it once with a free tool called Zadig.")}
           </p>
 
           <div className="mb-[28px]">

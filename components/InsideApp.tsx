@@ -23,7 +23,7 @@ export default function InsideApp() {
       </div>
 
       <div className="reveal-stagger mx-auto grid max-w-[1240px] grid-cols-4 gap-[16px] [grid-auto-rows:minmax(190px,auto)] max-[1100px]:grid-cols-2 max-md:grid-cols-1">
-        {/* Dayn — big tile */}
+        {/* Dayn, big tile */}
         <Bento
           className="col-span-2 row-span-2 max-[1100px]:row-auto max-md:col-auto"
           kicker={t("inside.daynKicker")}
@@ -72,7 +72,7 @@ export default function InsideApp() {
           </div>
         </Bento>
 
-        {/* Inventory — wide tile */}
+        {/* Inventory, wide tile */}
         <Bento
           className="col-span-2 max-md:col-auto"
           kicker={t("inside.invKicker")}

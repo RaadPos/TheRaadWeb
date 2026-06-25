@@ -47,7 +47,7 @@ export default function Logo({
   const cls = `inline-flex items-center gap-[9px] font-display text-[17px] font-semibold tracking-[-0.01em] ${className}`;
 
   return href ? (
-    <a href={href} className={cls} aria-label="Raad — home">
+    <a href={href} className={cls} aria-label="Raad, home">
       {inner}
     </a>
   ) : (

@@ -19,7 +19,7 @@
     "titleAccent": "ganacsigaaga.",
     "leadPre": "Raad POS wuxuu beddelaa buug-yaraantaada kasht-rejister caqli leh. La soco iibka, alaabta, iyo deynta macaamiisha (",
     "leadEm": "dayn",
-    "leadPost": ") — hal taleefan, diiwaan kastana waa la siriyay oo lagu kaydiyay daruurta.",
+    "leadPost": "), hal taleefan, diiwaan kastana waa la siriyay oo lagu kaydiyay daruurta.",
     "ctaDownload": "Ka soo deji Play Store",
     "ctaDemo": "Daawo bandhig 90 ilbiriqsi",
     "statBiz": "Noocyo ganacsi",
@@ -55,20 +55,20 @@
     "oldDesc": "Buugaag qasan. Rasiidho lumay. Deymo la illoobay.",
     "newTag": "Raad la wadaag",
     "newTitle": "Habka cusub",
-    "newDesc": "Maamul, iibi, oo kobci — dhammaan hal madal AI ku shaqeysa."
+    "newDesc": "Maamul, iibi, oo kobci, dhammaan hal madal AI ku shaqeysa."
   },
   "how": {
     "eyebrow": "Siddeed tallaabo",
     "titlePre": "Sida Raad u ",
     "titleEm": "shaqeeyo.",
-    "desc": "Laga bilaabo rakibaadda ilaa iibka ugu horreeya wax ka yar shan daqiiqo — tababar looma baahna.",
+    "desc": "Laga bilaabo rakibaadda ilaa iibka ugu horreeya wax ka yar shan daqiiqo, tababar looma baahna.",
     "phoneTitle": "Guudmarka maanta",
     "phoneRevenue": "Dakhli",
     "phoneOrders": "Dalabyo",
     "steps": [
       {
         "h": "Rakib Raad",
-        "p": "Ka soo deji Play Store — wax ka yar 30 MB."
+        "p": "Ka soo deji Play Store, wax ka yar 30 MB."
       },
       {
         "h": "Samee akoonkaaga",
@@ -76,7 +76,7 @@
       },
       {
         "h": "Ku dar alaabtaada",
-        "p": "Sawir barcode-yada ama gacanta ku qor — daqiiqado gudahood."
+        "p": "Sawir barcode-yada ama gacanta ku qor, daqiiqado gudahood."
       },
       {
         "h": "Samee iib",
@@ -92,7 +92,7 @@
       },
       {
         "h": "Hel warbixino ganacsi",
-        "p": "Maalin, toddobaad, bil — arag waxa iibsamay iyo waxan iibsamin."
+        "p": "Maalin, toddobaad, bil, arag waxa iibsamay iyo waxan iibsamin."
       },
       {
         "h": "Kudar oo maamul shaqaalaha",
@@ -103,7 +103,7 @@
   "featureBand": [
     {
       "h": "Xog sugan",
-      "p": "Iib iyo diiwaan kastaa waa la siriyay oo lagu kaydiyay daruurta — gaar ah oo la ilaaliyo."
+      "p": "Iib iyo diiwaan kastaa waa la siriyay oo lagu kaydiyay daruurta, gaar ah oo la ilaaliyo."
     },
     {
       "h": "Daruur-sugan",
@@ -115,7 +115,7 @@
     },
     {
       "h": "Abaalmarin heer-kor",
-      "p": "Hel XP iibka iyo soo-jeedinta. Fur xadad sare — bilaash, weligaa."
+      "p": "Hel XP iibka iyo soo-jeedinta. Fur xadad sare, bilaash, weligaa."
     }
   ],
   "inside": {
@@ -132,22 +132,22 @@
     "daynLeft": "ka hadhay",
     "invKicker": "Alaabta",
     "invTitle": "Alaab is-tirisa",
-    "invDesc": "Iib kastaa wuxuu cusbooneysiiyaa alaabtaada waqtigaas — digniin ka hor inta aanad dhammaan.",
+    "invDesc": "Iib kastaa wuxuu cusbooneysiiyaa alaabtaada waqtigaas, digniin ka hor inta aanad dhammaan.",
     "invLeft": "ka hadhay",
     "invLow": "Alaab yar",
     "reportsKicker": "Warbixino",
     "reportsTitle": "Ogow maalintaada ugu fiican",
-    "reportsDesc": "Soo-koobid maalin, toddobaad, iyo bil — waxa iibsamay iyo waxan iibsamin.",
+    "reportsDesc": "Soo-koobid maalin, toddobaad, iyo bil, waxa iibsamay iyo waxan iibsamin.",
     "barcodeKicker": "Barcode",
     "barcodeTitle": "Ku sawir kamaradkaaga",
-    "barcodeDesc": "Qalab dheeraad ah ma jiro — kamaradka taleefankaagu waa sawiraha."
+    "barcodeDesc": "Qalab dheeraad ah ma jiro, kamaradka taleefankaagu waa sawiraha."
   },
   "business": {
     "eyebrow": "Cidda loogu talagalay",
     "titlePre": "Lagu dhisay ",
     "titleEm": "nooca",
     "titlePost": " dukaankaaga.",
-    "desc": "Dooro ganacsigaaga — Raad wuxuu la qabsadaa sida aad dhab ahaan u iibiso.",
+    "desc": "Dooro ganacsigaaga, Raad wuxuu la qabsadaa sida aad dhab ahaan u iibiso.",
     "types": [
       {
         "name": "Baqaar & dukaan weyn",
@@ -218,8 +218,8 @@
     "eyebrow": "Qiimaha",
     "titlePre": "Bilow bilaash. ",
     "titleEm": "Ku sii jir bilaash",
-    "titlePost": " — ama u gud Pro.",
-    "desc": "Tijaabi Raad Pro bilaash 14 maalmood — kaar looma baahna. Kor u qaad oo keliya marka dukaankaagu ka weynaado qorshaha Starter.",
+    "titlePost": ", ama u gud Pro.",
+    "desc": "Tijaabi Raad Pro bilaash 14 maalmood, kaar looma baahna. Kor u qaad oo keliya marka dukaankaagu ka weynaado qorshaha Starter.",
     "annual": "Sannadle",
     "monthly": "Bishii",
     "save": "Badbaadi 17%",
@@ -227,7 +227,7 @@
     "perYear": "/ sannadkii",
     "starterTier": "Starter",
     "starterBadge": "Bilaash",
-    "starterSub": "Had iyo jeer bilaash — ku habboon dukaamada yaryar ee cusub.",
+    "starterSub": "Had iyo jeer bilaash, ku habboon dukaamada yaryar ee cusub.",
     "starterCta": "Ka soo deji bilaash",
     "starterFeats": [
       "Ilaa 50 alaab",
@@ -242,7 +242,7 @@
     "proPopular": "Ugu caansan",
     "proNoteAnnual": "≈ $4.16/bil · sannadle la bixiyo · badbaadi 17%",
     "proNoteMonthly": "bishii la bixiyo",
-    "proSub": "Milkiilaha dukaanka caqliga leh ee rabа waayo-aragnimada buuxda ee Raad Pro — iyo inuu kobco.",
+    "proSub": "Milkiilaha dukaanka caqliga leh ee rabа waayo-aragnimada buuxda ee Raad Pro, iyo inuu kobco.",
     "proCta": "Bilow tijaabo 14-maalmood bilaash",
     "proFeats": [
       "Waxa Starter ku jira oo dhan, oo lagu daray:",
@@ -254,7 +254,7 @@
       "Maamulka dalacsiinta",
       "Isku-xidhka alaab-qeybiyaha"
     ],
-    "note": "Qiimaha USD. Goor kasta jooji — xogtaadu adigaa iska leh, Starter ama Pro."
+    "note": "Qiimaha USD. Goor kasta jooji, xogtaadu adigaa iska leh, Starter ama Pro."
   },
   "faq": {
     "eyebrow": "Su'aalo",
@@ -263,11 +263,11 @@
     "items": [
       {
         "q": "Waa maxay Raad?",
-        "a": "Raad waa app Point of Sale isku-dhafan oo taleefankaaga u beddela nidaam maamul ganacsi oo dhammaystiran. Wuxuu beddelaa buugaagta warqadda xal caqli leh, sugan, oo fudud — la soco iibka, alaabta, deynta macaamiisha (dayn), iyo aragtiyo ganacsi, dhammaan hal meel."
+        "a": "Raad waa app Point of Sale isku-dhafan oo taleefankaaga u beddela nidaam maamul ganacsi oo dhammaystiran. Wuxuu beddelaa buugaagta warqadda xal caqli leh, sugan, oo fudud, la soco iibka, alaabta, deynta macaamiisha (dayn), iyo aragtiyo ganacsi, dhammaan hal meel."
       },
       {
         "q": "Sidee Raad u ilaaliyaa xogtayda?",
-        "a": "Xogta ganacsigaaga waa la siriyaa marka la gudbinayo iyo marka la kaydinayo, waxaana si toos ah loogu kaydiyaa daruurta. Adiga iyo shaqaalaha aad u oggolaato ayaa keliya geli kara — doorar iyo oggolaansho aad gacanta ku haysid, si iibkaaga, alaabtaada, iyo macaamiishaadu u sii ahaadaan kuwo gaar ah oo la ilaaliyay."
+        "a": "Xogta ganacsigaaga waa la siriyaa marka la gudbinayo iyo marka la kaydinayo, waxaana si toos ah loogu kaydiyaa daruurta. Adiga iyo shaqaalaha aad u oggolaato ayaa keliya geli kara, doorar iyo oggolaansho aad gacanta ku haysid, si iibkaaga, alaabtaada, iyo macaamiishaadu u sii ahaadaan kuwo gaar ah oo la ilaaliyay."
       },
       {
         "q": "Maxaa dhacaya haddii alaabtaydu aanay barcode lahayn?",
@@ -275,26 +275,26 @@
       },
       {
         "q": "Sidee astaanta deynta macaamiisha (dayn) u shaqeysaa?",
-        "a": "Beddel buugga deynta ee warqadda Raad-raaca Dayn. Ku xidh iib kasta oo deyn ah macmiil, la soco taariikhda dhammaystiran, diiwaangeli bixin qayb ah, oo hal taabo dir xasuusin WhatsApp ama SMS oo edeb leh — si aad dhaqso ugu soo celiso lacagta."
+        "a": "Beddel buugga deynta ee warqadda Raad-raaca Dayn. Ku xidh iib kasta oo deyn ah macmiil, la soco taariikhda dhammaystiran, diiwaangeli bixin qayb ah, oo hal taabo dir xasuusin WhatsApp ama SMS oo edeb leh, si aad dhaqso ugu soo celiso lacagta."
       },
       {
         "q": "Xogtaydu ma badbaado oo gaar ma tahay?",
-        "a": "Haa — amniga ayaa ahaan mudnaantayada ugu sarreysa. Dhammaan xogta waa la siriyaa oo lagu kaydiyaa daruurta. Haddii taleefankaagu lumo ama jabo, kaliya ku gal aalad cusub iyo iibkaaga, alaabta, iyo macaamiishu si degdeg ah ayaa loo soo celiyaa."
+        "a": "Haa, amniga ayaa ahaan mudnaantayada ugu sarreysa. Dhammaan xogta waa la siriyaa oo lagu kaydiyaa daruurta. Haddii taleefankaagu lumo ama jabo, kaliya ku gal aalad cusub iyo iibkaaga, alaabta, iyo macaamiishu si degdeg ah ayaa loo soo celiyaa."
       },
       {
         "q": "Waa maxay nidaamka \"Level Up\"?",
-        "a": "Halkii laga heli lahaa qorshe bilaash xaddidan, Raad wuxuu kuu abaalmariyaa isticmaalka abka. Ka bilow Level 1 oo leh xadad deeqsi ah. Hel XP adigoo iib samaynaya oo soo jeedinaya dukaamo kale — kor u qaad si aad u furto xadad alaab, shaqaale, iyo astaamo sare. Bilaash, weligaa."
+        "a": "Halkii laga heli lahaa qorshe bilaash xaddidan, Raad wuxuu kuu abaalmariyaa isticmaalka abka. Ka bilow Level 1 oo leh xadad deeqsi ah. Hel XP adigoo iib samaynaya oo soo jeedinaya dukaamo kale, kor u qaad si aad u furto xadad alaab, shaqaale, iyo astaamo sare. Bilaash, weligaa."
       },
       {
         "q": "Sidee ugu daabacaa rasiidho macaamiisha?",
-        "a": "Raad wuxuu ku xidhmaa inta badan daabacayaasha kulul ee Bluetooth. Iib kasta kadib, daabac rasiid jireed, ama u dir mid dijital ah WhatsApp ama SMS — kaydinta warqadda iyo macaamiisha siinta dabacsanaan."
+        "a": "Raad wuxuu ku xidhmaa inta badan daabacayaasha kulul ee Bluetooth. Iib kasta kadib, daabac rasiid jireed, ama u dir mid dijital ah WhatsApp ama SMS, kaydinta warqadda iyo macaamiisha siinta dabacsanaan."
       }
     ]
   },
   "cta": {
     "titleLine1": "Jooji qoritaanka.",
     "titleLine2": "Bilow kobaca.",
-    "desc": "Ku biir 600+ milkiile dukaan oo isticmaalaya Raad si ay u maamulaan ganacsiyo caqli badan, degdeg ah — maalin kasta.",
+    "desc": "Ku biir 600+ milkiile dukaan oo isticmaalaya Raad si ay u maamulaan ganacsiyo caqli badan, degdeg ah, maalin kasta.",
     "download": "Ka soo deji bilaash",
     "talk": "La hadal iibka"
   },
@@ -315,6 +315,6 @@
     "getStarted": "Bilow",
     "privacyShort": "Asturnaan",
     "termsShort": "Shuruudo",
-    "rights": "© 2026 Raad — RAAD HQ. Dhammaan xuquuqdu way xifdisan tahay."
+    "rights": "© 2026 Raad, RAAD HQ. Dhammaan xuquuqdu way xifdisan tahay."
   }
 }

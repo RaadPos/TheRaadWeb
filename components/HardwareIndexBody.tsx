@@ -13,7 +13,7 @@ export default function HardwareIndexBody() {
       img: "/assets/reciept.png",
       tag: ts("Receipts"),
       title: ts("Thermal printer"),
-      desc: ts("Print clean receipts straight from your phone over Bluetooth — or USB."),
+      desc: ts("Print clean receipts straight from your phone over Bluetooth, or USB."),
       chips: ["Bluetooth", "58 & 80mm", ts("Auto-print")],
       href: "/hardware/thermal-printer",
     },
@@ -45,7 +45,7 @@ export default function HardwareIndexBody() {
           </>
         }
         desc={ts(
-          "No expensive terminals. Pair everyday devices with Raad — and tap a card to see exactly how to connect it."
+          "No expensive terminals. Pair everyday devices with Raad, and tap a card to see exactly how to connect it."
         )}
       />
 
