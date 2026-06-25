@@ -32,11 +32,12 @@ export default function Ways() {
         <Way
           variant="new"
           tag={t("ways.newTag")}
-          icon="bx-bolt"
+          icon="bxs-bolt"
           title={t("ways.newTitle")}
           desc={t("ways.newDesc")}
           img={AFTER_IMG}
           alt={t("ways.newTitle")}
+          
         />
       </div>
     </section>
